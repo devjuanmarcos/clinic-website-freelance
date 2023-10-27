@@ -1,0 +1,18 @@
+[
+  {
+    "id": "home",
+    "primaryColor": "",
+    "secundaryColor": "",
+    "terciaryColor": "",
+    "banners": [
+      {
+        "id": 1,
+        "type": "main",
+        "title": "Seja bem vindo!",
+        "subtitle": "Clínica de neuroplasticia",
+        "paragraph": "paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph ",
+        "image": "/assets/images/nomedaimagem.png"
+      }
+    ]
+  }
+]
