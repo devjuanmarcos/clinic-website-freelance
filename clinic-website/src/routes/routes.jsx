@@ -1,4 +1,4 @@
-import Home from "Pages/Home";
+import Home from "pages/Home";
 import React, { useEffect } from "react";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 
