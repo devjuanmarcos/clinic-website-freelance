@@ -1,0 +1,46 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 0;
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 80%;
+  gap: 40px;
+  height: min-content;
+}
+
+.title {
+  display: flex;
+  text-align: start;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  max-width: 60%;
+  gap: 16px;
+}
+
+.title p {
+  margin-bottom: 32px;
+}
+
+.infos {
+  width: 100%;
+  max-width: 40%;
+}
+
+.imageBox {
+  width: auto;
+}
+
+.image {
+  width: 100%;
+}

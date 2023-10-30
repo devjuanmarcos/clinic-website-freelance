@@ -1,0 +1,12 @@
+<svg width="92" height="93" viewBox="0 0 92 93" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="Icon/Feather Icon">
+        <path id="Vector"
+            d="M72.8333 12H19.1667C14.9325 12 11.5 15.4325 11.5 19.6667V73.3333C11.5 77.5675 14.9325 81 19.1667 81H72.8333C77.0675 81 80.5 77.5675 80.5 73.3333V19.6667C80.5 15.4325 77.0675 12 72.8333 12Z"
+            stroke="#212121" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+        <path id="Vector_2"
+            d="M32.5833 38.8333C35.759 38.8333 38.3333 36.2589 38.3333 33.0833C38.3333 29.9076 35.759 27.3333 32.5833 27.3333C29.4077 27.3333 26.8333 29.9076 26.8333 33.0833C26.8333 36.2589 29.4077 38.8333 32.5833 38.8333Z"
+            stroke="#212121" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+        <path id="Vector_3" d="M80.5 57.9999L61.3333 38.8333L19.1667 80.9999" stroke="#212121" stroke-width="3"
+            stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+</svg>
