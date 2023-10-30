@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 
 import React from "react";
 import IconComponent from "components/Icons/IconComponent";
+import ThreeMiniBanners from "components/Banners/ThreeMini";
 
 export default function Home() {
   const pageId = "home";
@@ -13,9 +14,9 @@ export default function Home() {
         id={pageId}
         type={"main"}
       />
-      <MainBanner
+      <ThreeMiniBanners
         id={pageId}
-        type={"main"}
+        type={"center"}
       />
       <MainBanner
         id={pageId}

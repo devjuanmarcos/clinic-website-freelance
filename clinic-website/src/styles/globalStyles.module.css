@@ -26,7 +26,7 @@
 
 html {
   box-sizing: border-box;
-  background-color: #ffefff;
+  background-color: #f7f7f7;
 }
 *,
 *:before,
@@ -78,7 +78,7 @@ head {
 
 h1 {
   font-family: var(--fonte-principal);
-  font-size: 40px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 1000;
   line-height: 48px;
@@ -87,19 +87,20 @@ h1 {
 
 h2 {
   font-family: var(--fonte-principal);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: var(--fonte-principal);
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 130%; /* 41.6px */
   letter-spacing: 0.32px;
-}
-
-h3 {
-  font-family: var(--fonte-principal);
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
 }
 
 h4 {
@@ -112,7 +113,6 @@ h4 {
 }
 
 p {
-  color: #bdc1c6;
   font-family: var(--fonte-principal);
   font-size: 20px;
   font-style: normal;
