@@ -2,8 +2,9 @@ import MainBanner from "components/Banners/Main";
 import styles from "./styles.module.css";
 
 import React from "react";
-import IconComponent from "components/Icons/IconComponent";
 import ThreeMiniBanners from "components/Banners/ThreeMini";
+import ImageWithText from "components/Banners/ImageWithText";
+import TitleWithButtons from "components/Banners/TitleWithButtons";
 
 export default function Home() {
   const pageId = "home";
@@ -17,6 +18,19 @@ export default function Home() {
       <ThreeMiniBanners
         id={pageId}
         type={"center"}
+      />
+      <ImageWithText
+        revertPosition={true}
+        id={pageId}
+        type={"main"}
+      />
+      <TitleWithButtons
+        id={pageId}
+        type={"info2"}
+      />
+      <ImageWithText
+        id={pageId}
+        type={"main"}
       />
     </section>
   );
