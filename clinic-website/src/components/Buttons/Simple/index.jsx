@@ -10,7 +10,7 @@ export default function SimpleButton({
   const [hovered, setHovered] = useState(false);
 
   const handleClick = () => {
-    window.location.href = link;
+    window.location.href = "http://google.com";
   };
   return (
     <button

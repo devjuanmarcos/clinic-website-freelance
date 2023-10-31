@@ -1,19 +1,10 @@
 import styles from "./styles.module.css";
 import React from "react";
 
-import data from "assets/json/data.json";
 import SimpleButton from "components/Buttons/Simple";
 
-export default function MainBanner({ background, id, type }) {
-  const filteredId = data.find((data) => data.id === id);
-  if (!filteredId) {
-    return null;
-  }
-
-  const filteredBanner = filteredId.banners.filter(
-    (banner) => banner.type === type
-  );
-
+export default function MainBanner({ type }) {
+  const [filteredId, filteredBanner, background, revertPosition] = type;
   return (
     <>
       {filteredBanner.map((banner) => (

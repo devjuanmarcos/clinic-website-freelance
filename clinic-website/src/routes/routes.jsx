@@ -16,12 +16,11 @@ export default function AppRoutes() {
   return (
     <>
       <BrowserRouter>
-        {/* <Menu /> */}
         <ScrollToTop />
         <Routes>
           <Route
             path='/'
-            element={<Home />}
+            element={<Home pageId='home' />}
           >
             <Route
               index
@@ -37,8 +36,6 @@ export default function AppRoutes() {
             element={<Home />}
           />
         </Routes>
-
-        {/* <Footer /> */}
       </BrowserRouter>
     </>
   );
