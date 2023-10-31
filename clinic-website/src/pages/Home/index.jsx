@@ -7,6 +7,7 @@ import MainBanner from "components/Banners/Main";
 import ThreeMiniBanners from "components/Banners/ThreeMini";
 import ImageWithText from "components/Banners/ImageWithText";
 import TitleWithButtons from "components/Banners/TitleWithButtons";
+import Menu from "components/Menu";
 
 export default function Home({ pageId }) {
   const filteredId = data.find((data) => data.id === pageId);
@@ -15,26 +16,37 @@ export default function Home({ pageId }) {
   }
   const { banners, ...filteredWithoutBanners } = filteredId;
 
-  const filteredBanner = (type, background, revertPosition) => [
+  const filteredBanner = (type, background, revertPosition, anchor) => [
     filteredWithoutBanners,
     filteredId.banners.filter((banner) => banner.type === type),
     background,
     revertPosition,
+    anchor,
   ];
 
   return (
     <section className={styles.main}>
-      {/* fill in the type (data.json - banners type), background (rgba or false) and revertPosition (true or false) */}
+      {/* fill in the type (data.json - banners type), background (rgba or false), revertPosition (true or false) and anchor */}
 
-      <MainBanner type={filteredBanner("main", false, false)} />
+      <Menu />
 
-      <ThreeMiniBanners type={filteredBanner("center", false, false)} />
+      <MainBanner type={filteredBanner("main", false, false, "anchorHome")} />
 
-      <ImageWithText type={filteredBanner("info1", false, true)} />
+      <ThreeMiniBanners
+        type={filteredBanner("center", false, false, "anchorCenter")}
+      />
 
-      <TitleWithButtons type={filteredBanner("info2", false, false)} />
+      <ImageWithText
+        type={filteredBanner("info1", false, true, "anchorInfo1")}
+      />
 
-      <ImageWithText type={filteredBanner("info3", false, true)} />
+      <TitleWithButtons
+        type={filteredBanner("info2", false, false, "anchorInfo2")}
+      />
+
+      <ImageWithText
+        type={filteredBanner("info3", false, true, "anchorInfo3")}
+      />
     </section>
   );
 }

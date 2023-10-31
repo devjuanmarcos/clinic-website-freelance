@@ -5,7 +5,7 @@ import data from "assets/json/data.json";
 import SimpleButton from "components/Buttons/Simple";
 
 export default function ImageWithText({ type }) {
-  const [filteredId, filteredBanner, background, revertPosition] = type;
+  const [filteredId, filteredBanner, background, revertPosition, anchor] = type;
   return (
     <>
       {filteredBanner.map((banner) => (
@@ -18,6 +18,7 @@ export default function ImageWithText({ type }) {
               : null
           }
           className={styles.main}
+          id={anchor}
         >
           <div
             className={styles.content}

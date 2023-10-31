@@ -1,0 +1,17 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  background-color: aliceblue;
+}
+
+.routes {
+  display: flex;
+  gap: 30px;
+}
+
+.routes li {
+  display: block;
+}

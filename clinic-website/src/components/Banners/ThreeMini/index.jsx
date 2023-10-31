@@ -2,7 +2,8 @@ import styles from "./styles.module.css";
 import React from "react";
 
 export default function ThreeMiniBanners({ type }) {
-  const [filteredId, filteredBanner, background, revertPosition] = type;
+  const [filteredId, filteredBanner, background, revertPosition, anchor] = type;
+  console.log(filteredId);
   return (
     <>
       {filteredBanner.map((banner) => (
@@ -15,6 +16,7 @@ export default function ThreeMiniBanners({ type }) {
               : null
           }
           className={styles.main}
+          id={anchor}
         >
           <div className={styles.content}>
             <div className={styles.title}>

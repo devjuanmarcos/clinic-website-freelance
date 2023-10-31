@@ -4,7 +4,7 @@ import React from "react";
 import SimpleButton from "components/Buttons/Simple";
 
 export default function MainBanner({ type }) {
-  const [filteredId, filteredBanner, background, revertPosition] = type;
+  const [filteredId, filteredBanner, background, revertPosition, anchor] = type;
   return (
     <>
       {filteredBanner.map((banner) => (
@@ -17,6 +17,7 @@ export default function MainBanner({ type }) {
               : null
           }
           className={styles.main}
+          id={anchor}
         >
           <div className={styles.content}>
             <div className={styles.title}>

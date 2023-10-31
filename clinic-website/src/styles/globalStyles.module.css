@@ -27,7 +27,9 @@
 html {
   box-sizing: border-box;
   background-color: #f7f7f7;
+  scroll-behavior: smooth;
 }
+
 *,
 *:before,
 *:after {
