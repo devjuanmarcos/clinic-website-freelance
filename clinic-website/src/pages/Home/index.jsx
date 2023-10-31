@@ -18,18 +18,6 @@ export default function Home() {
         id={pageId}
         type={"center"}
       />
-      <MainBanner
-        id={pageId}
-        type={"main"}
-      />
-      <MainBanner
-        id={pageId}
-        type={"main"}
-      />
-      <MainBanner
-        id={pageId}
-        type={"main"}
-      />
     </section>
   );
 }
