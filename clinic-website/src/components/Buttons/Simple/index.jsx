@@ -10,7 +10,7 @@ export default function SimpleButton({
   const [hovered, setHovered] = useState(false);
 
   const handleClick = () => {
-    window.location.href = "http://google.com";
+    window.location.href = link;
   };
   return (
     <button
@@ -28,7 +28,7 @@ export default function SimpleButton({
       }}
       onClick={handleClick}
     >
-      {children}
+      {children ? children : "Conferir"}
     </button>
   );
 }

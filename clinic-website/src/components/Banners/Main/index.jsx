@@ -19,15 +19,21 @@ export default function MainBanner({ type }) {
           className={styles.main}
           id={anchor}
         >
-          <div className={styles.content}>
+          <div
+            className={styles.content}
+            style={revertPosition ? { flexDirection: "row-reverse" } : {}}
+          >
             <div className={styles.title}>
               <h1>{banner.title}</h1>
               <p>{banner.paragraph}</p>
-              <SimpleButton
-                children={"Get Started"}
-                primaryColor={filteredId.primaryColor}
-                secundaryColor={filteredId.secundaryColor}
-              />
+              {banner.button.map((button) => (
+                <SimpleButton
+                  children={button.children}
+                  primaryColor={filteredId.primaryColor}
+                  secundaryColor={filteredId.secundaryColor}
+                  link={button.link}
+                />
+              ))}
             </div>
             <div className={styles.infos}>
               <div className={styles.imageBox}>

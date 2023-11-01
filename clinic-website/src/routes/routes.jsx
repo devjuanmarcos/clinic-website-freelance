@@ -1,3 +1,4 @@
+import Error404 from "pages/Error404";
 import Home from "pages/Home";
 import React, { useEffect } from "react";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
@@ -33,7 +34,7 @@ export default function AppRoutes() {
           />
           <Route
             path='*'
-            element={<Home />}
+            element={<Error404 pageId='error' />}
           />
         </Routes>
       </BrowserRouter>

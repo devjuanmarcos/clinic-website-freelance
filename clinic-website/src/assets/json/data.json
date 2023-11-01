@@ -11,7 +11,14 @@
         "title": "Arcu suscipit massa aliquam proin amet",
         "subtitle": "",
         "paragraph": "At lacus vitae nulla sagittis scelerisque nisl. Pellentesque duis cursus vestibulum, facilisi ac, sed faucibus.",
-        "image": "/images/imageModelDescart.svg"
+        "image": "/images/imageModelDescart.svg",
+        "button": [
+          {
+            "id": 1,
+            "children": "Retornar",
+            "link": "/undefined"
+          }
+        ]
       },
       {
         "id": 2,
@@ -134,6 +141,29 @@
             "id": 5,
             "title": "How soon will my order ship?",
             "paragraph": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "error",
+    "primaryColor": "var(--clinic-primaryColor)",
+    "secundaryColor": "var(--clinic-secundaryColor)",
+    "terciaryColor": "var(--clinic-terciaryColor)",
+    "banners": [
+      {
+        "id": 1,
+        "type": "main",
+        "title": "Parece que algo deu errado",
+        "subtitle": "",
+        "paragraph": "A página que você está tentando acessar está indisponível no momento. Retorne a página principal e desfrute das novidades que colocamos para você recentemente.",
+        "image": "/images/404error.svg",
+        "button": [
+          {
+            "id": 1,
+            "children": "Retornar",
+            "link": "/"
           }
         ]
       }
