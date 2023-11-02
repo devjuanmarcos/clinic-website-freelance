@@ -178,6 +178,8 @@
       {
         "id": 9,
         "type": "cardComent",
+        "title": "What our clients says",
+        "subtitle": "Neque, pulvinar vestibulum non aliquam.",
         "items": [
           {
             "id": 1,
