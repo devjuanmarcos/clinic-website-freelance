@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 414px;
+  height: 323px;
+  padding: 10px;
+  gap: 27px;
+}
+
+.container img {
+  width: 40px;
+  height: 40px;
+}
+
+.container p {
+  text-align: center;
+}
