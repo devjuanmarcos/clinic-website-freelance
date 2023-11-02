@@ -1,7 +1,6 @@
 import styles from "./styles.module.css";
 import React from "react";
 
-import data from "assets/json/data.json";
 import SimpleButton from "components/Buttons/Simple";
 
 export default function ImageWithText({ type }) {
