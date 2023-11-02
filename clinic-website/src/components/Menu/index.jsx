@@ -1,26 +1,24 @@
 import styles from "./styles.module.css";
 import React from "react";
 
-export default function Menu() {
+export default function Menu({ type }) {
+  const [filteredId, filteredBanner, background, revertPosition, anchor] = type;
   return (
-    <nav className={styles.menu}>
-      <ul className={styles.routes}>
-        <li>
-          <a href='#anchorHome'>Seção 1</a>
-        </li>
-        <li>
-          <a href='#anchorCenter'>Seção 2</a>
-        </li>
-        <li>
-          <a href='#anchorInfo1'>Seção 3</a>
-        </li>
-        <li>
-          <a href='#anchorInfo2'>Seção 1</a>
-        </li>
-        <li>
-          <a href='#anchorInfo3'>Seção 3</a>
-        </li>
-      </ul>
-    </nav>
+    <>
+      {filteredBanner.map((banner) => (
+        <nav className={styles.menu}>
+          {banner.itens.map((item) => (
+            <span className={styles.item}>
+              <a
+                key={item.id}
+                href={item.anchor}
+              >
+                {item.name}
+              </a>
+            </span>
+          ))}
+        </nav>
+      ))}
+    </>
   );
 }

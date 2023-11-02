@@ -28,7 +28,7 @@ export default function Home({ pageId }) {
     <section className={styles.main}>
       {/* fill in the type (data.json - banners type), background (rgba or false), revertPosition (true or false) and anchor */}
 
-      <Menu />
+      <Menu type={filteredBanner("menu")} />
 
       <MainBanner type={filteredBanner("main", false, false, "anchorHome")} />
 

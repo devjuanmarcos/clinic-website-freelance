@@ -143,6 +143,37 @@
             "paragraph": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
           }
         ]
+      },
+      {
+        "id": 8,
+        "type": "menu",
+        "itens": [
+          {
+            "id": 1,
+            "name": "Banner 1",
+            "anchor": "#anchorHome"
+          },
+          {
+            "id": 2,
+            "name": "Banner 2",
+            "anchor": "#anchorCenter"
+          },
+          {
+            "id": 3,
+            "name": "Banner 3",
+            "anchor": "#anchorInfo1"
+          },
+          {
+            "id": 4,
+            "name": "Banner 4",
+            "anchor": "#anchorInfo2"
+          },
+          {
+            "id": 5,
+            "name": "Banner 5",
+            "anchor": "#anchorInfo3"
+          }
+        ]
       }
     ]
   },
