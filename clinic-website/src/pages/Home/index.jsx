@@ -50,7 +50,7 @@ export default function Home({ pageId }) {
         type={filteredBanner("info3", false, true, "anchorInfo3")}
       />
 
-      <Example type={filteredBanner("example")} />
+      {/* <Example type={filteredBanner("example")} /> */}
 
       <CardCarouselBanner
         type={filteredBanner("cardComent", false, false, false)}

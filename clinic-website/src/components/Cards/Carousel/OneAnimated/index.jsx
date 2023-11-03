@@ -3,15 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 import React, { useState } from "react";
 
-const images = [
-  "/public/images/imageModelDescart.svg",
-  "/public/images/imageModelDescart.svg",
-  "/public/images/imageModelDescart.svg",
-  "/public/images/imageModelDescart.svg",
-  "/public/images/imageModelDescart.svg",
-];
-
-const Example = ({ type }) => {
+const Example = ({ images }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const handleNextImage = () => {
