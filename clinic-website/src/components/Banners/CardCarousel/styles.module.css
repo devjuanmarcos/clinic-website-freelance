@@ -4,34 +4,47 @@
   align-items: center;
   padding: 96px 0;
   height: 100%;
-  width: 100%;
+  overflow: hidden;
   background-size: 100%;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  gap: 72px;
-  height: min-content;
+  width: 80vw;
+  gap: 40px;
 }
 
 .title {
-  display: flex;
-  text-align: start;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
+  text-align: center;
 }
 
-.infos {
+.carousel {
+  overflow: hidden;
+  cursor: grab;
+}
+
+.inner {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 90%;
+  gap: 60px;
+}
+
+@media (max-width: 480px) {
+  .itemBox {
+    flex-direction: column;
+    width: 100%;
+  }
+  .item {
+    width: 100%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .itemBox {
+    flex-direction: column;
+    width: 100%;
+  }
+  .item {
+    width: 100%;
+  }
 }

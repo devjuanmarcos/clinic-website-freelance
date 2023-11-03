@@ -44,7 +44,10 @@ export default function Home({ pageId }) {
       <TitleWithButtons
         type={filteredBanner("info2", false, false, "anchorInfo2")}
       />
-      <CardCarouselBanner type={filteredBanner("cardComent")} />
+
+      <CardCarouselBanner
+        type={filteredBanner("cardComent", false, false, false)}
+      />
 
       <ImageWithText
         type={filteredBanner("info3", false, true, "anchorInfo3")}
