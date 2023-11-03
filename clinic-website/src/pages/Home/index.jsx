@@ -9,6 +9,7 @@ import ImageWithText from "components/Banners/ImageWithText";
 import TitleWithButtons from "components/Banners/TitleWithButtons";
 import Menu from "components/Menu";
 import CardCarouselBanner from "components/Banners/CardCarousel";
+import Example from "components/Cards/Carousel/OneAnimated/";
 
 export default function Home({ pageId }) {
   const filteredId = data.find((data) => data.id === pageId);
@@ -45,12 +46,14 @@ export default function Home({ pageId }) {
         type={filteredBanner("info2", false, false, "anchorInfo2")}
       />
 
-      <CardCarouselBanner
-        type={filteredBanner("cardComent", false, false, false)}
-      />
-
       <ImageWithText
         type={filteredBanner("info3", false, true, "anchorInfo3")}
+      />
+
+      <Example type={filteredBanner("example")} />
+
+      <CardCarouselBanner
+        type={filteredBanner("cardComent", false, false, false)}
       />
     </section>
   );
