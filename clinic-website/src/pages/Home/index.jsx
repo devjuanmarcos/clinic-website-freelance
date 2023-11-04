@@ -9,7 +9,7 @@ import ImageWithText from "components/Banners/ImageWithText";
 import TitleWithButtons from "components/Banners/TitleWithButtons";
 import Menu from "components/Menu";
 import CardCarouselBanner from "components/Banners/CardCarousel";
-import Example from "components/Cards/Carousel/OneAnimated/";
+import ImageApresentationBanner from "components/Banners/ImagesApresentation";
 
 export default function Home({ pageId }) {
   const filteredId = data.find((data) => data.id === pageId);
@@ -34,6 +34,8 @@ export default function Home({ pageId }) {
 
       <MainBanner type={filteredBanner("main", false, false, "anchorHome")} />
 
+      <ImageApresentationBanner type={filteredBanner("example")} />
+
       <ThreeMiniBanners
         type={filteredBanner("center", false, false, "anchorCenter")}
       />
@@ -49,8 +51,6 @@ export default function Home({ pageId }) {
       <ImageWithText
         type={filteredBanner("info3", false, true, "anchorInfo3")}
       />
-
-      {/* <Example type={filteredBanner("example")} /> */}
 
       <CardCarouselBanner
         type={filteredBanner("cardComent", false, false, false)}

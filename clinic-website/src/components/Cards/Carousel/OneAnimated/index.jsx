@@ -1,39 +1,83 @@
-import styles from "./styles.module.css";
-import { AnimatePresence, motion } from "framer-motion";
-
 import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { wrap } from "popmotion";
+import styles from "./styles.module.css";
+
+const variants = {
+  enter: (direction) => ({
+    x: direction > 0 ? 1000 : -1000,
+    opacity: 0,
+  }),
+  center: {
+    zIndex: 1,
+    x: 0,
+    opacity: 1,
+  },
+  exit: (direction) => ({
+    zIndex: 0,
+    x: direction < 0 ? 1000 : -1000,
+    opacity: 0,
+  }),
+};
+
+const swipeConfidenceThreshold = 10000;
+
+const swipePower = (offset, velocity) => Math.abs(offset) * velocity;
 
 const Example = ({ images }) => {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [[page, direction], setPage] = useState([0, 0]);
 
-  const handleNextImage = () => {
-    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
+  const imageIndex = wrap(0, images.length, page);
 
-  const handlePreviousImage = () => {
-    setCurrentImageIndex(
-      (prevIndex) => (prevIndex - 1 + images.length) % images.length
-    );
+  const paginate = (newDirection) => {
+    setPage([page + newDirection, newDirection]);
   };
 
   return (
-    <div>
-      <button onClick={handlePreviousImage}>Anterior</button>
+    <div className={styles.container}>
+      <div
+        className={styles.prev}
+        onClick={() => paginate(-1)}
+      >
+        {"‣"}
+      </div>
       <AnimatePresence
-        exit={{ opacity: 0 }}
-        custom={currentImageIndex}
+        initial={false}
+        custom={direction}
       >
         <motion.img
-          key={currentImageIndex}
-          src={images[currentImageIndex]}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.5 }}
-          alt={`Image ${currentImageIndex + 1}`}
+          className={styles.img}
+          key={page}
+          src={images[imageIndex]}
+          custom={direction}
+          variants={variants}
+          initial='enter'
+          animate='center'
+          exit='exit'
+          transition={{
+            x: { type: "spring", stiffness: 300, damping: 30 },
+            opacity: { duration: 0.2 },
+          }}
+          drag='x'
+          dragConstraints={{ left: 0, right: 0 }}
+          dragElastic={1}
+          onDragEnd={(e, { offset, velocity }) => {
+            const swipe = swipePower(offset.x, velocity.x);
+
+            if (swipe < -swipeConfidenceThreshold) {
+              paginate(1);
+            } else if (swipe > swipeConfidenceThreshold) {
+              paginate(-1);
+            }
+          }}
         />
       </AnimatePresence>
-      <button onClick={handleNextImage}>Próxima</button>
+      <div
+        className={styles.next}
+        onClick={() => paginate(1)}
+      >
+        {"‣"}
+      </div>
     </div>
   );
 };

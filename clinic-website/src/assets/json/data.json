@@ -225,20 +225,13 @@
         "title": "Olá",
         "items": [
           {
-            "id": 1,
-            "image": "/images/imageModelDescart.svg"
+            "image": "/images/imageTest1.jpg"
           },
           {
-            "id": 2,
-            "image": "/images/imageModelDescart.svg"
+            "image": "/images/imageTest3.jpg"
           },
           {
-            "id": 3,
-            "image": "/images/imageModelDescart.svg"
-          },
-          {
-            "id": 4,
-            "image": "/images/imageModelDescart.svg"
+            "image": "/images/imageTest2.jpg"
           }
         ]
       }
