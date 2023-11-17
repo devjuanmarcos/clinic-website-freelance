@@ -6,6 +6,7 @@ export default function SimpleButton({
   children,
   primaryColor,
   secundaryColor,
+  terciaryColor,
 }) {
   const [hovered, setHovered] = useState(false);
 
@@ -17,8 +18,14 @@ export default function SimpleButton({
       className={`${styles.button} ${hovered ? "" : styles.hoverOut}  `}
       style={
         hovered
-          ? { backgroundColor: secundaryColor }
-          : { backgroundColor: primaryColor }
+          ? {
+              backgroundColor: terciaryColor,
+              boxShadow: `0px 0px 12px -4px ${secundaryColor}`,
+            }
+          : {
+              backgroundColor: secundaryColor,
+              boxShadow: `0px 0px 12px -4px ${secundaryColor}`,
+            }
       }
       onMouseEnter={() => {
         setHovered(true);

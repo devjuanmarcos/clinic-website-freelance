@@ -9,7 +9,7 @@
   font-weight: 600;
   z-index: 1;
   color: var(--branco);
-  box-shadow: 0px 0px 12px -4px rgba(0, 102, 128, 1);
+  box-shadow: 0px 0px 12px -4px #ba6f4d;
   background-color: var(--roxo-escuro);
 }
 

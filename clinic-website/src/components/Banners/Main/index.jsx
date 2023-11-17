@@ -31,6 +31,7 @@ export default function MainBanner({ type }) {
                   children={button.children}
                   primaryColor={filteredId.primaryColor}
                   secundaryColor={filteredId.secundaryColor}
+                  terciaryColor={filteredId.terciaryColor}
                   link={button.link}
                 />
               ))}
@@ -38,6 +39,9 @@ export default function MainBanner({ type }) {
             <div className={styles.infos}>
               <div className={styles.imageBox}>
                 <img
+                  style={{
+                    boxShadow: `0px 0px 90px -12px ${filteredId.terciaryColor}`,
+                  }}
                   className={styles.image}
                   src={banner.image}
                   alt=''

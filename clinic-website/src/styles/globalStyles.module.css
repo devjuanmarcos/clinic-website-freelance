@@ -26,7 +26,7 @@
 
 html {
   box-sizing: border-box;
-  background-color: #f7f7f7;
+  background-color: var(--clinic-backgroundColor);
   scroll-behavior: smooth;
 }
 
@@ -42,9 +42,10 @@ html {
 }
 
 :root {
-  --clinic-primaryColor: #4270fc;
-  --clinic-secundaryColor: #0a36bb;
-  --clinic-terciaryColor: #000000;
+  --clinic-primaryColor: #ba6f4d;
+  --clinic-secundaryColor: #8e412e;
+  --clinic-terciaryColor: #4e2217;
+  --clinic-backgroundColor: #000000;
 
   --branco: #fff;
   --branco-medio: #fafafa;
@@ -80,6 +81,7 @@ head {
 
 h1 {
   font-family: var(--fonte-principal);
+  color: var(--branco-medio);
   font-size: 48px;
   font-style: normal;
   font-weight: 1000;
@@ -89,6 +91,7 @@ h1 {
 
 h2 {
   font-family: var(--fonte-principal);
+  color: var(--branco-medio);
   font-size: 40px;
   font-style: normal;
   font-weight: 1000;
@@ -98,6 +101,7 @@ h2 {
 
 h3 {
   font-family: var(--fonte-principal);
+  color: var(--branco-medio);
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
@@ -107,6 +111,7 @@ h3 {
 
 h4 {
   font-family: var(--fonte-principal);
+  color: var(--branco-medio);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -116,6 +121,7 @@ h4 {
 
 p {
   font-family: var(--fonte-principal);
+  color: var(--branco-medio);
   font-size: 20px;
   font-style: normal;
   font-weight: 400;

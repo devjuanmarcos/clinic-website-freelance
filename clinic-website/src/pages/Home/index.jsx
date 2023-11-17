@@ -2,6 +2,7 @@ import styles from "./styles.module.css";
 import React from "react";
 
 import data from "assets/json/data.json";
+import background from "assets/images/circulos.svg";
 
 import MainBanner from "components/Banners/Main";
 import ThreeMiniBanners from "components/Banners/ThreeMini";
@@ -27,7 +28,16 @@ export default function Home({ pageId }) {
   ];
 
   return (
-    <section className={styles.main}>
+    <section
+      style={
+        background
+          ? {
+              backgroundImage: `url(${background})`,
+            }
+          : null
+      }
+      className={styles.main}
+    >
       {/* fill in the type (data.json - banners type), background (rgba or false), revertPosition (true or false) and anchor */}
 
       <Menu type={filteredBanner("menu")} />

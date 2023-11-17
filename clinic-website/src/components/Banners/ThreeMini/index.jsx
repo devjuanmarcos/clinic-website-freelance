@@ -35,6 +35,9 @@ export default function ThreeMiniBanners({ type }) {
                 >
                   <div className={styles.imageBox}>
                     <img
+                      style={{
+                        boxShadow: `0px 0px 90px -12px ${filteredId.terciaryColor}`,
+                      }}
                       className={styles.image}
                       src={item.image}
                       alt=''
