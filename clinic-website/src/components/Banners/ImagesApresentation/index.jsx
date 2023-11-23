@@ -29,12 +29,14 @@ export default function ImageApresentationBanner({ type }) {
           className={styles.main}
           id={anchor}
         >
-          <div
+          <Example images={images} />
+
+          {/* <div
             className={styles.content}
             style={revertPosition ? { flexDirection: "row-reverse" } : {}}
           >
             <Example images={images} />
-          </div>
+          </div> */}
         </section>
       ))}
     </>

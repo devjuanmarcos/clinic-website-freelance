@@ -26,14 +26,21 @@ export default function ImageWithText({ type }) {
             <div className={styles.title}>
               <h2>{banner.title}</h2>
               <p>{banner.paragraph}</p>
-              <SimpleButton
-                children={"Get Started"}
-                primaryColor={filteredId.primaryColor}
-                secundaryColor={filteredId.secundaryColor}
-              />
+              {banner.button.map((button) => (
+                <SimpleButton
+                  children={button.children}
+                  primaryColor={filteredId.primaryColor}
+                  secundaryColor={filteredId.secundaryColor}
+                  terciaryColor={filteredId.terciaryColor}
+                  link={button.link}
+                />
+              ))}
             </div>
             <div className={styles.infos}>
-              <div className={styles.imageBox}>
+              <div
+                className={styles.imageBox}
+                style={revertPosition ? { justifyContent: "flex-start" } : {}}
+              >
                 <img
                   className={styles.image}
                   src={banner.image}

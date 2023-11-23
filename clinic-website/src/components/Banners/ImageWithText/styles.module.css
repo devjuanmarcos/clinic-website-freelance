@@ -38,9 +38,11 @@
 }
 
 .imageBox {
+  display: flex;
+  justify-content: flex-end;
   width: auto;
 }
 
 .image {
-  width: 100%;
+  width: 80%;
 }

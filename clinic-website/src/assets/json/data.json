@@ -4,14 +4,15 @@
     "primaryColor": "var(--clinic-primaryColor)",
     "secundaryColor": "var(--clinic-secundaryColor)",
     "terciaryColor": "var(--clinic-terciaryColor)",
+    "boxShadowColor": "var(--clinic-boxShadowColor)",
     "banners": [
       {
         "id": 1,
         "type": "main",
-        "title": "Arcu suscipit massa aliquam proin amet",
-        "subtitle": "",
-        "paragraph": "At lacus vitae nulla sagittis scelerisque nisl. Pellentesque duis cursus vestibulum, facilisi ac, sed faucibus.",
-        "image": "/images/imageModelDescart.jpg",
+        "title": "Seja muito bem vindo à Villa Amor",
+        "subtitle": "Terapias integradas",
+        "paragraph": "Fonoaudiólogo, Psicólogo, Nutricionista e atendimentos médicos em geral.",
+        "image": "/images/logo.png",
         "button": [
           {
             "id": 1,
@@ -23,25 +24,25 @@
       {
         "id": 2,
         "type": "center",
-        "title": "Etiam nulla lectus amet",
-        "subtitle": "Neque, pulvinar vestibulum non aliquam.",
+        "title": "Serviços pensados para você!",
+        "subtitle": "Conheça um pouco sobre os tipos de atendimentos que a nossa clínica preparou para atendê-lo da melhor forma possível.",
         "itens": [
           {
             "id": 1,
-            "title": "Purus id tellus arcu habitant proin magna. Integer purus",
-            "paragraph": "Facilisi viverra dictum augue eu lobortis elit. In et donec habitasse lacus mi commodo elementum.",
+            "title": "Fonoaudiólogo:",
+            "paragraph": "Promovemos saúde vocal e auditiva. Diagnóstico preciso e terapias personalizadas para aprimorar a comunicação e a qualidade de vida.",
             "image": "/images/imageModelDescart.jpg"
           },
           {
             "id": 2,
-            "title": "Purus id tellus arcu habitant proin magna. Integer purus",
-            "paragraph": "Facilisi viverra dictum augue eu lobortis elit. In et donec habitasse lacus mi commodo elementum.",
+            "title": "Psicólogo:",
+            "paragraph": "Cuidamos da sua saúde mental. Terapias individualizadas para superar desafios, promover bem-estar emocional e construir relacionamentos saudáveis.",
             "image": "/images/imageModelDescart.jpg"
           },
           {
             "id": 3,
-            "title": "Purus id tellus arcu habitant proin magna. Integer purus",
-            "paragraph": "Facilisi viverra dictum augue eu lobortis elit. In et donec habitasse lacus mi commodo elementum.",
+            "title": "Nutricionista:",
+            "paragraph": "Transforme sua alimentação, transforme sua vida. Planos nutricionais personalizados para alcançar metas de saúde, equilibrando corpo e mente.",
             "image": "/images/imageModelDescart.jpg"
           }
         ]
@@ -49,16 +50,35 @@
       {
         "id": 3,
         "type": "info1",
-        "title": "Etiam nulla lectus amet nunc molestie",
-        "paragraph": "Metus, diam pretium at at morbi vulputate et. Tellus ipsum sollicitudin ut eu a lectus potenti maecenas",
+        "title": "Fácil acesso e estacionamento gratuito",
+        "paragraph": "Pensado em facilitar o pré atendimento nós atendemos em um local de fácil acesso e com disponibilidade de estacionamento para seu veículo.",
         "topText": "Rhoncus, accumsan dictum",
-        "image": "/images/imageModelDescart.svg"
+        "image": "/images/Parking-amico.svg",
+        "button": [
+          {
+            "id": 1,
+            "children": "Conferir",
+            "link": "/undefined"
+          }
+        ]
       },
       {
         "id": 4,
         "type": "info2",
-        "title": "Etiam nulla lectus amet nunc molestie",
-        "topText": "Rhoncus, accumsan dictum"
+        "title": "Siga a gente nas redes sociais ou entre em contato para receber as informações em primeira mão",
+        "topText": "Não fique por fora de nenhuma novidade",
+        "button": [
+          {
+            "id": 1,
+            "children": "Instagram",
+            "link": "/undefined"
+          },
+          {
+            "id": 2,
+            "children": "Whatsapp",
+            "link": "/undefined"
+          }
+        ]
       },
       {
         "id": 5,
@@ -66,7 +86,14 @@
         "title": "Etiam nulla lectus amet nunc molestie",
         "paragraph": "Metus, diam pretium at at morbi vulputate et. Tellus ipsum sollicitudin ut eu a lectus potenti maecenas",
         "topText": "Rhoncus, accumsan dictum",
-        "image": "/images/imageModelDescart.svg"
+        "image": "/images/imageModelDescart.svg",
+        "button": [
+          {
+            "id": 1,
+            "children": "Conferir",
+            "link": "/undefined"
+          }
+        ]
       },
       {
         "id": 6,

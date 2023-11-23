@@ -51,7 +51,7 @@ export default function Home({ pageId }) {
       />
 
       <ImageWithText
-        type={filteredBanner("info1", false, true, "anchorInfo1")}
+        type={filteredBanner("info1", false, false, "anchorInfo1")}
       />
 
       <TitleWithButtons

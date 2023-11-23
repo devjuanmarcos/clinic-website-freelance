@@ -19,7 +19,7 @@
 .title {
   display: flex;
   flex-direction: column;
-  text-align: start;
+  text-align: center;
   justify-content: center;
   align-items: center;
   width: 100%;

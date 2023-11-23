@@ -1,6 +1,5 @@
 import styles from "./styles.module.css";
 import React from "react";
-
 import SimpleButton from "components/Buttons/Simple";
 
 export default function MainBanner({ type }) {
@@ -39,9 +38,9 @@ export default function MainBanner({ type }) {
             <div className={styles.infos}>
               <div className={styles.imageBox}>
                 <img
-                  style={{
-                    boxShadow: `0px 0px 90px -12px ${filteredId.terciaryColor}`,
-                  }}
+                  // style={{
+                  //   boxShadow: `0px 0px 90px -12px ${filteredId.terciaryColor}`,
+                  // }}
                   className={styles.image}
                   src={banner.image}
                   alt=''

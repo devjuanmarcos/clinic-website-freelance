@@ -43,8 +43,9 @@ html {
 
 :root {
   --clinic-primaryColor: #ba6f4d;
-  --clinic-secundaryColor: #8e412e;
-  --clinic-terciaryColor: #4e2217;
+  --clinic-secundaryColor: #c87000;
+  --clinic-terciaryColor: #7c0e00;
+  --clinic-boxShadowColor: #042e00;
   --clinic-backgroundColor: #000000;
 
   --branco: #fff;

@@ -1,9 +1,9 @@
 .main {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 96px 0;
-  height: 70vh;
+  height: 100%;
   width: 100%;
   background-size: 100%;
   overflow: hidden;

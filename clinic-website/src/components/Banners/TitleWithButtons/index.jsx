@@ -25,16 +25,15 @@ export default function TitleWithButtons({ type }) {
               <p>{banner.topText}</p>
               <h2>{banner.title}</h2>
               <div className={styles.buttonBox}>
-                <SimpleButton
-                  children={"Get Started"}
-                  primaryColor={filteredId.primaryColor}
-                  secundaryColor={filteredId.secundaryColor}
-                />
-                <SimpleButton
-                  children={"Get Started"}
-                  primaryColor={filteredId.primaryColor}
-                  secundaryColor={filteredId.secundaryColor}
-                />
+                {banner.button.map((button) => (
+                  <SimpleButton
+                    children={button.children}
+                    primaryColor={filteredId.primaryColor}
+                    secundaryColor={filteredId.secundaryColor}
+                    terciaryColor={filteredId.terciaryColor}
+                    link={button.link}
+                  />
+                ))}
               </div>
             </div>
           </div>
