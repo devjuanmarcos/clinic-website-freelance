@@ -63,3 +63,25 @@
   height: 100%;
   gap: 20px;
 }
+
+@media (max-width: 480px) {
+  .title {
+    text-align: center;
+  }
+  .infos {
+    max-width: 100%;
+  }
+  .miniBanner {
+    flex-direction: column !important;
+    gap: 20px;
+  }
+  .imageBox {
+    width: auto;
+    height: auto;
+  }
+  .textBox {
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+}

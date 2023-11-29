@@ -17,6 +17,7 @@ export default function Home({ pageId }) {
   if (!filteredId) {
     return null;
   }
+
   const { banners, ...filteredWithoutBanners } = filteredId;
 
   const filteredBanner = (type, background, revertPosition, anchor) => [
@@ -33,6 +34,7 @@ export default function Home({ pageId }) {
         background
           ? {
               backgroundImage: `url(${background})`,
+              backgroundSize: "cover",
             }
           : null
       }

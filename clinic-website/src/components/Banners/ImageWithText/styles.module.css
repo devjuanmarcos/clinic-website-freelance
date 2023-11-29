@@ -46,3 +46,24 @@
 .image {
   width: 80%;
 }
+
+@media (max-width: 480px) {
+  .main {
+    height: auto;
+  }
+
+  .content {
+    flex-direction: column-reverse !important;
+    align-items: center;
+  }
+
+  .title {
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .imageBox {
+    justify-content: center !important;
+  }
+}

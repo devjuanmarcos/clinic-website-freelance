@@ -40,3 +40,9 @@
   opacity: 50%;
   border-radius: 32px;
 }
+
+@media (max-width: 480px) {
+  .menu {
+    display: none;
+  }
+}

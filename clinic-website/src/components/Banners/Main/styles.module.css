@@ -45,3 +45,20 @@
   width: 100%;
   border-radius: 32px;
 }
+
+@media (max-width: 480px) {
+  .main {
+    height: auto;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .title {
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+}
