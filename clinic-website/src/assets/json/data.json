@@ -29,19 +29,19 @@
         "itens": [
           {
             "id": 1,
-            "title": "Fonoaudiólogo:",
+            "title": "Fonoaudiólogo",
             "paragraph": "Promovemos saúde vocal e auditiva. Diagnóstico preciso e terapias personalizadas para aprimorar a comunicação e a qualidade de vida.",
             "image": "/images/imageModelDescart.jpg"
           },
           {
             "id": 2,
-            "title": "Psicólogo:",
+            "title": "Psicólogo",
             "paragraph": "Cuidamos da sua saúde mental. Terapias individualizadas para superar desafios, promover bem-estar emocional e construir relacionamentos saudáveis.",
             "image": "/images/imageModelDescart.jpg"
           },
           {
             "id": 3,
-            "title": "Nutricionista:",
+            "title": "Nutricionista",
             "paragraph": "Transforme sua alimentação, transforme sua vida. Planos nutricionais personalizados para alcançar metas de saúde, equilibrando corpo e mente.",
             "image": "/images/imageModelDescart.jpg"
           }

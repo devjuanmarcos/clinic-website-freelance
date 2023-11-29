@@ -46,10 +46,10 @@ html {
   --clinic-secundaryColor: #c87000;
   --clinic-terciaryColor: #7c0e00;
   --clinic-boxShadowColor: #042e00;
-  --clinic-backgroundColor: #000000;
+  /* --clinic-backgroundColor: #000000; */
 
   --branco: #fff;
-  --branco-medio: #fafafa;
+  --branco-medio: #161616;
   --preto: #2f3941;
   --secundria-preto: #232323;
   --cinza: #535f68;
