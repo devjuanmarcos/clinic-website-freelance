@@ -9,10 +9,18 @@ export default function SimpleButton({
   terciaryColor,
 }) {
   const [hovered, setHovered] = useState(false);
+  const [wppLink, setWppLink] = useState("https://wa.me/+5524993188312");
 
   const handleClick = () => {
-    window.location.href = link;
+    if (link) {
+      // Abre o link em uma nova aba
+      window.open(link, "_blank");
+    } else {
+      // Abre o link do WhatsApp em uma nova aba
+      window.open(wppLink, "_blank");
+    }
   };
+
   return (
     <button
       className={`${styles.button} ${hovered ? "" : styles.hoverOut}  `}

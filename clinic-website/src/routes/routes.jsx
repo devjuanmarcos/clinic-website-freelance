@@ -1,5 +1,6 @@
 import Error404 from "pages/Error404";
 import Home from "pages/Home";
+import Nutricionist from "pages/Services/Nutritionist";
 import React, { useEffect } from "react";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 
@@ -29,8 +30,8 @@ export default function AppRoutes() {
             />
           </Route>
           <Route
-            path='lixo'
-            element={<Home />}
+            path='nutricionist'
+            element={<Nutricionist pageId='nutricionist' />}
           />
           <Route
             path='*'

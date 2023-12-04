@@ -16,8 +16,7 @@
         "button": [
           {
             "id": 1,
-            "children": "Conferir",
-            "link": "/undefined"
+            "children": "Conferir"
           }
         ]
       },
@@ -31,19 +30,22 @@
             "id": 1,
             "title": "Fonoaudiólogo",
             "paragraph": "Promovemos saúde vocal e auditiva. Diagnóstico preciso e terapias personalizadas para aprimorar a comunicação e a qualidade de vida.",
-            "image": "/images/imageModelDescart.jpg"
+            "image": "/images/imageModelDescart.jpg",
+            "anchor": "/peechTherapist"
           },
           {
             "id": 2,
             "title": "Psicólogo",
             "paragraph": "Cuidamos da sua saúde mental. Terapias individualizadas para superar desafios, promover bem-estar emocional e construir relacionamentos saudáveis.",
-            "image": "/images/imageModelDescart.jpg"
+            "image": "/images/imageModelDescart.jpg",
+            "anchor": "/psychologist"
           },
           {
             "id": 3,
             "title": "Nutricionista",
             "paragraph": "Transforme sua alimentação, transforme sua vida. Planos nutricionais personalizados para alcançar metas de saúde, equilibrando corpo e mente.",
-            "image": "/images/imageModelDescart.jpg"
+            "image": "/images/imageModelDescart.jpg",
+            "anchor": "/nutricionist"
           }
         ]
       },
@@ -57,8 +59,7 @@
         "button": [
           {
             "id": 1,
-            "children": "Conferir",
-            "link": "/undefined"
+            "children": "Conferir"
           }
         ]
       },
@@ -71,12 +72,11 @@
           {
             "id": 1,
             "children": "Instagram",
-            "link": "/undefined"
+            "link": "https://www.instagram.com/clinicavillaamor/"
           },
           {
             "id": 2,
-            "children": "Whatsapp",
-            "link": "/undefined"
+            "children": "Whatsapp"
           }
         ]
       },
@@ -90,8 +90,7 @@
         "button": [
           {
             "id": 1,
-            "children": "Conferir",
-            "link": "/undefined"
+            "children": "Conferir"
           }
         ]
       },
@@ -259,6 +258,206 @@
           },
           {
             "image": "/images/imageTest2.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nutricionist",
+    "primaryColor": "var(--clinic-primaryColor)",
+    "secundaryColor": "var(--clinic-secundaryColor)",
+    "terciaryColor": "var(--clinic-terciaryColor)",
+    "boxShadowColor": "var(--clinic-boxShadowColor)",
+    "banners": [
+      {
+        "id": 1,
+        "type": "main",
+        "title": "Nutrindo Corações, Transformando Vidas: Sua Jornada Começa Aqui!",
+        "subtitle": "Terapias integradas",
+        "paragraph": "Nutrição Personalizada para Toda a Família: Nossa Nutricionista Está Pronta para Atender Adultos e Crianças em Nossa Clínica em Petrópolis!",
+        "image": "/images/nutricionistMain.svg",
+        "button": [
+          {
+            "id": 1,
+            "children": "Conferir"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "center",
+        "title": "Nossas especialidades",
+        "subtitle": "Descubra o Sabor da Saúde: Conheça Nossas Especialidades e Transforme sua Jornada Nutricional!",
+        "itens": [
+          {
+            "id": 1,
+            "title": "Emagrecimento e obesidade",
+            "paragraph": "Desenvolvemos abordagens personalizadas para auxiliar no emagrecimento saudável e no controle da obesidade. Nossa equipe nutricional se dedica a criar planos alimentares equilibrados e sustentáveis, promovendo mudanças positivas no estilo de vida para alcançar seus objetivos de peso.",
+            "image": "/images/Eating.svg"
+          },
+          {
+            "id": 2,
+            "title": "Nutrição Funcional",
+            "paragraph": "A Nutrição Funcional busca compreender as necessidades específicas de cada indivíduo. Nossos programas se baseiam em uma abordagem holística, explorando como os alimentos interagem com o corpo para otimizar a saúde. Vamos além da simples alimentação, visando equilibrar o organismo como um todo.",
+            "image": "/images/Lymphoma-amico.svg"
+          },
+          {
+            "id": 3,
+            "title": "Nutrição e Estética",
+            "paragraph": "Unimos a ciência da nutrição à busca pela beleza interior e exterior. Nossos planos nutricionais não apenas promovem a saúde interna, mas também visam realçar a beleza externa. Descubra como a alimentação pode ser uma aliada poderosa para manter sua pele radiante e sua vitalidade.",
+            "image": "/images/Stretching exercises-amico.svg"
+          },
+          {
+            "id": 4,
+            "title": "Nutrição Esportiva",
+            "paragraph": "Para atletas e entusiastas do esporte, oferecemos suporte nutricional personalizado para maximizar o desempenho e acelerar a recuperação. A Nutrição Esportiva vai além de apenas fornecer energia; é uma estratégia para potencializar o corpo, garantindo o equilíbrio ideal para alcançar seus objetivos atléticos.",
+            "image": "/images/Workout-amico.svg"
+          },
+          {
+            "id": 5,
+            "title": "Intolerâncias Alimentares",
+            "paragraph": "Compreendemos a importância de identificar e lidar com intolerâncias alimentares. Nossos programas adaptados consideram restrições específicas, garantindo que sua dieta seja livre de desencadeadores de desconfortos, promovendo o bem-estar digestivo e geral.",
+            "image": "/images/Eating healthy food-amico.svg"
+          },
+          {
+            "id": 6,
+            "title": "Nutrição Ortomolecular",
+            "paragraph": "A Nutrição Ortomolecular foca na individualidade bioquímica de cada pessoa. Nossos profissionais utilizam abordagens personalizadas, considerando a relação entre nutrientes e o equilíbrio molecular do corpo. Descubra como a Nutrição Ortomolecular pode otimizar sua saúde, promovendo um estado de equilíbrio ideal.",
+            "image": "/images/Powerful-amico.svg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "children",
+        "title": "Crescimento Saudável, Futuro Promissor: Nutrição Infantil",
+        "paragraph": "Oferecemos um serviço dedicado à nutrição infantil, reconhecendo a importância vital que a alimentação desempenha no desenvolvimento saudável de nossos pequenos. Com abordagens personalizadas, nossa equipe de especialistas em nutrição infantil visa criar bases sólidas para uma vida saudável, proporcionando orientação nutricional adaptada às necessidades específicas de cada criança. Priorizamos a educação nutricional para os pais, promovendo escolhas alimentares equilibradas que garantam o crescimento saudável, o desenvolvimento cognitivo e a energia vital para um futuro promissor. Investir na nutrição desde cedo é investir no bem-estar duradouro de nossas crianças.",
+        "topText": "Rhoncus, accumsan dictum",
+        "image": "/images/Kids playing with dolls-amico.svg",
+        "button": [
+          {
+            "id": 1,
+            "children": "Conferir"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": "farBeyond",
+        "title": "Muito além do consultório",
+        "paragraph": "Oferecemos serviços abrangentes, incluindo consultoria para o lançamento de novos produtos, assessoria em compras de mercado, orientação especializada para restaurantes, elaboração de rótulos nutricionais e a criação de cardápios personalizados para eventos. Estamos comprometidos em fornecer soluções personalizadas e estratégias eficazes para atender às necessidades específicas de nossos clientes em diversos setores.",
+        "background": "/images/imageModelDescart.jpg",
+        "button": [
+          {
+            "id": 1,
+            "children": "Entre em contato"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "online",
+        "title": "Atendimento Online",
+        "paragraph": "É com grande satisfação que informamos que agora oferecemos atendimento online em nossa clínica. Com a conveniência e a flexibilidade do atendimento virtual, garantimos acesso fácil aos nossos serviços de saúde qualificados a partir do conforto da sua casa. Estamos comprometidos em proporcionar cuidados abrangentes e acessíveis, adaptados às necessidades modernas dos nossos pacientes.",
+        "topText": "Rhoncus, accumsan dictum",
+        "image": "/images/Online tech talks-amico.svg",
+        "button": [
+          {
+            "id": 1,
+            "children": "Conferir"
+          }
+        ]
+      },
+
+      {
+        "id": 6,
+        "type": "menu",
+        "itens": [
+          {
+            "id": 1,
+            "name": "Banner 1",
+            "anchor": "#anchorHome"
+          },
+          {
+            "id": 2,
+            "name": "Banner 2",
+            "anchor": "#anchorCenter"
+          },
+          {
+            "id": 3,
+            "name": "Banner 3",
+            "anchor": "#anchorInfo1"
+          },
+          {
+            "id": 4,
+            "name": "Banner 4",
+            "anchor": "#anchorInfo2"
+          },
+          {
+            "id": 5,
+            "name": "Banner 5",
+            "anchor": "#anchorInfo3"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "cardComent",
+        "title": "Opiniões dos nossos clientes",
+        "subtitle": "Vozes que Inspiram Confiança: Testemunhos Autênticos dos Nossos Clientes",
+        "items": [
+          {
+            "id": 1,
+            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
+            "image": "/images/clientPerfil1.svg",
+            "name": "Jacob da Carrocinha"
+          },
+          {
+            "id": 2,
+            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
+            "image": "/images/clientPerfil1.svg",
+            "name": "Jacob da Carrocinha"
+          },
+          {
+            "id": 3,
+            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
+            "image": "/images/clientPerfil1.svg",
+            "name": "Jacob da Carrocinha"
+          },
+          {
+            "id": 4,
+            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
+            "image": "/images/clientPerfil1.svg",
+            "name": "Jacob da Carrocinha"
+          },
+          {
+            "id": 5,
+            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
+            "image": "/images/clientPerfil1.svg",
+            "name": "Jacob da Carrocinha"
+          },
+          {
+            "id": 5,
+            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
+            "image": "/images/clientPerfil1.svg",
+            "name": "Jacob da Carrocinha"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "example",
+        "title": "Olá",
+        "items": [
+          {
+            "image": "/images/clientPerfil1.svg"
+          },
+          {
+            "image": "/images/clientPerfil1.svg"
+          },
+          {
+            "image": "/images/clientPerfil1.svg"
           }
         ]
       }

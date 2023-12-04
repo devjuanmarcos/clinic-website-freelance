@@ -30,14 +30,14 @@ export default function Home({ pageId }) {
 
   return (
     <section
-      style={
-        background
-          ? {
-              backgroundImage: `url(${background})`,
-              backgroundSize: "cover",
-            }
-          : null
-      }
+      // style={
+      //   background
+      //     ? {
+      //         backgroundImage: `url(${background})`,
+      //         backgroundSize: "cover",
+      //       }
+      //     : null
+      // }
       className={styles.main}
     >
       {/* fill in the type (data.json - banners type), background (rgba or false), revertPosition (true or false) and anchor */}
@@ -46,7 +46,7 @@ export default function Home({ pageId }) {
 
       <MainBanner type={filteredBanner("main", false, false, "anchorHome")} />
 
-      <ImageApresentationBanner type={filteredBanner("example")} />
+      {/* <ImageApresentationBanner type={filteredBanner("example")} /> */}
 
       <ThreeMiniBanners
         type={filteredBanner("center", false, false, "anchorCenter")}
@@ -60,9 +60,9 @@ export default function Home({ pageId }) {
         type={filteredBanner("info2", false, false, "anchorInfo2")}
       />
 
-      <ImageWithText
+      {/* <ImageWithText
         type={filteredBanner("info3", false, true, "anchorInfo3")}
-      />
+      /> */}
 
       <CardCarouselBanner
         type={filteredBanner("cardComent", false, false, false)}

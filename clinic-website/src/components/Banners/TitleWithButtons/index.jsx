@@ -11,9 +11,11 @@ export default function TitleWithButtons({ type }) {
       {filteredBanner.map((banner) => (
         <section
           style={
-            background
+            banner.background
               ? {
-                  backgroundColor: background,
+                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${banner.background})`,
+                  backgroundSize: "cover",
+                  margin: "96px 0",
                 }
               : null
           }
@@ -22,8 +24,23 @@ export default function TitleWithButtons({ type }) {
         >
           <div className={styles.content}>
             <div className={styles.title}>
-              <p>{banner.topText}</p>
-              <h2>{banner.title}</h2>
+              {banner.topText ? (
+                <p
+                  style={banner.background ? { color: "var(--branco)" } : null}
+                >
+                  {banner.topText}
+                </p>
+              ) : undefined}
+              <h2 style={banner.background ? { color: "var(--branco)" } : null}>
+                {banner.title}
+              </h2>
+              {banner.paragraph ? (
+                <p
+                  style={banner.background ? { color: "var(--branco)" } : null}
+                >
+                  {banner.paragraph}
+                </p>
+              ) : undefined}
               <div className={styles.buttonBox}>
                 {banner.button.map((button) => (
                   <SimpleButton
