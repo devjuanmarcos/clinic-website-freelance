@@ -48,6 +48,7 @@ html {
   --clinic-boxShadowColor: #042e00;
   /* --clinic-backgroundColor: #000000; */
 
+  /* Alterar as cores futuramente para acessibilidade com botão de troca */
   --branco: #fff;
   --branco-medio: #161616;
   --preto: #2f3941;
@@ -139,6 +140,28 @@ a {
 
 #main2 {
   display: grid;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #ff6600 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ff6600;
+  border-radius: 10px;
+  border: 3px none #ffffff;
 }
 
 @media (max-width: 480px) {

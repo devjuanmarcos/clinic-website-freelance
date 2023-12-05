@@ -355,23 +355,9 @@
           }
         ]
       },
-      {
-        "id": 5,
-        "type": "online",
-        "title": "Atendimento Online",
-        "paragraph": "É com grande satisfação que informamos que agora oferecemos atendimento online em nossa clínica. Com a conveniência e a flexibilidade do atendimento virtual, garantimos acesso fácil aos nossos serviços de saúde qualificados a partir do conforto da sua casa. Estamos comprometidos em proporcionar cuidados abrangentes e acessíveis, adaptados às necessidades modernas dos nossos pacientes.",
-        "topText": "Rhoncus, accumsan dictum",
-        "image": "/images/Online tech talks-amico.svg",
-        "button": [
-          {
-            "id": 1,
-            "children": "Conferir"
-          }
-        ]
-      },
 
       {
-        "id": 6,
+        "id": 5,
         "type": "menu",
         "itens": [
           {
@@ -402,7 +388,7 @@
         ]
       },
       {
-        "id": 7,
+        "id": 6,
         "type": "cardComent",
         "title": "Opiniões dos nossos clientes",
         "subtitle": "Vozes que Inspiram Confiança: Testemunhos Autênticos dos Nossos Clientes",
@@ -446,7 +432,7 @@
         ]
       },
       {
-        "id": 10,
+        "id": 7,
         "type": "example",
         "title": "Olá",
         "items": [
@@ -483,6 +469,34 @@
             "link": "/"
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "menuMain",
+    "primaryColor": "var(--clinic-primaryColor)",
+    "secundaryColor": "var(--clinic-secundaryColor)",
+    "terciaryColor": "var(--clinic-terciaryColor)",
+    "items": [
+      {
+        "id": 1,
+        "name": "Home",
+        "anchor": "/"
+      },
+      {
+        "id": 2,
+        "name": "Nutricionista",
+        "anchor": "/nutricionist"
+      },
+      {
+        "id": 3,
+        "name": "Psicólogo",
+        "anchor": "/psychologist"
+      },
+      {
+        "id": 4,
+        "name": "Fonodiólogo",
+        "anchor": "/"
       }
     ]
   }
