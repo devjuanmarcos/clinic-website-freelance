@@ -24,7 +24,7 @@ export default function ThreeMiniBanners({ type }) {
               <p>{banner.subtitle}</p>
             </div>
 
-            {banner.itens.map((item, id) => (
+            {banner.items.map((item, id) => (
               <div
                 className={styles.infos}
                 key={id}

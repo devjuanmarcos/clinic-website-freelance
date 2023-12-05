@@ -1,6 +1,8 @@
 import Error404 from "pages/Error404";
 import Home from "pages/Home";
 import Nutricionist from "pages/Services/Nutritionist";
+import Psychologist from "pages/Services/Psychologist";
+import SpeechTherapist from "pages/Services/SpeechTherapist";
 import React, { useEffect } from "react";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 
@@ -32,6 +34,14 @@ export default function AppRoutes() {
           <Route
             path='nutricionist'
             element={<Nutricionist pageId='nutricionist' />}
+          />
+          <Route
+            path='psychologist'
+            element={<Psychologist pageId='psychologist' />}
+          />
+          <Route
+            path='speechTherapist'
+            element={<SpeechTherapist pageId='speechTherapist' />}
           />
           <Route
             path='*'

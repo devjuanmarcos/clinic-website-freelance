@@ -11,7 +11,7 @@
         "type": "main",
         "title": "Seja muito bem vindo à Villa Amor",
         "subtitle": "Terapias integradas",
-        "paragraph": "Fonoaudiólogo, Psicólogo, Nutricionista e atendimentos médicos em geral.",
+        "paragraph": "Equipe especializada em Fonoaudiologia, Psicologia, Nutrição e Atendimentos Médicos Personalizados para o seu bem-estar integral.",
         "image": "/images/logo.png",
         "button": [
           {
@@ -25,7 +25,7 @@
         "type": "center",
         "title": "Serviços pensados para você!",
         "subtitle": "Conheça um pouco sobre os tipos de atendimentos que a nossa clínica preparou para atendê-lo da melhor forma possível.",
-        "itens": [
+        "items": [
           {
             "id": 1,
             "title": "Fonoaudiólogo",
@@ -99,7 +99,7 @@
         "type": "info4",
         "title": "What our clients says",
         "subtitle": "Neque, pulvinar vestibulum non aliquam.",
-        "itens": [
+        "items": [
           {
             "id": 1,
             "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
@@ -142,7 +142,7 @@
         "type": "info5",
         "title": "what our clients says",
         "subtitle": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
-        "itens": [
+        "items": [
           {
             "id": 1,
             "title": "How soon will my order ship?",
@@ -173,7 +173,7 @@
       {
         "id": 8,
         "type": "menu",
-        "itens": [
+        "items": [
           {
             "id": 1,
             "name": "Banner 1",
@@ -263,6 +263,7 @@
       }
     ]
   },
+
   {
     "id": "nutricionist",
     "primaryColor": "var(--clinic-primaryColor)",
@@ -289,7 +290,7 @@
         "type": "center",
         "title": "Nossas especialidades",
         "subtitle": "Descubra o Sabor da Saúde: Conheça Nossas Especialidades e Transforme sua Jornada Nutricional!",
-        "itens": [
+        "items": [
           {
             "id": 1,
             "title": "Emagrecimento e obesidade",
@@ -359,7 +360,7 @@
       {
         "id": 5,
         "type": "menu",
-        "itens": [
+        "items": [
           {
             "id": 1,
             "name": "Banner 1",
@@ -449,6 +450,355 @@
       }
     ]
   },
+
+  {
+    "id": "psychologist",
+    "primaryColor": "var(--clinic-primaryColor)",
+    "secundaryColor": "var(--clinic-secundaryColor)",
+    "tertiaryColor": "var(--clinic-tertiaryColor)",
+    "boxShadowColor": "var(--clinic-boxShadowColor)",
+    "banners": [
+      {
+        "id": 1,
+        "type": "main",
+        "title": "Cuidando da Mente, Transformando Vidas: Sua Jornada Começa Aqui!",
+        "subtitle": "Terapias Integradas",
+        "paragraph": "A Psicologia Personalizada para Todos: Nosso Psicólogo Está Pronto para Atender Adultos e Crianças em Nosso Consultório em Petrópolis!",
+        "image": "/images/nutricionistMain.svg",
+        "button": [
+          {
+            "id": 1,
+            "children": "Conferir"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "center",
+        "title": "Nossas especialidades",
+        "subtitle": "Descubra o Poder da Saúde Mental: Conheça Nossas Especialidades e Transforme sua Jornada Psicológica!",
+        "items": [
+          {
+            "id": 1,
+            "title": "Psicoterapia Individual",
+            "paragraph": "Oferecemos sessões de psicoterapia individual, proporcionando um espaço seguro para explorar seus pensamentos, sentimentos e desafios pessoais. Nosso psicólogo utiliza abordagens terapêuticas eficazes para promover o seu bem-estar emocional e mental.",
+            "image": "/images/Psychology-pana.svg"
+          },
+          {
+            "id": 2,
+            "title": "Terapia de Casal",
+            "paragraph": "A terapia de casal visa fortalecer relacionamentos, melhorar a comunicação e encontrar soluções para desafios conjugais. Nossas sessões são conduzidas por um psicólogo especializado em terapia de casal, oferecendo suporte e orientação para construir relações saudáveis e duradouras.",
+            "image": "/images/Couple therapy-pana.svg"
+          },
+          {
+            "id": 3,
+            "title": "Aconselhamento Familiar",
+            "paragraph": "O aconselhamento familiar é essencial para promover a compreensão mútua, resolver conflitos e fortalecer os laços familiares. Nossos profissionais em psicologia familiar estão dedicados a ajudar sua família a enfrentar desafios e construir um ambiente harmonioso.",
+            "image": "/images/Family time-pana.svg"
+          },
+          {
+            "id": 4,
+            "title": "Gestão do Estresse",
+            "paragraph": "A gestão do estresse é fundamental para a saúde mental. Nossos serviços de psicologia incluem estratégias eficazes para lidar com o estresse, desenvolvendo habilidades de enfrentamento e promovendo o equilíbrio emocional.",
+            "image": "/images/Stress management-pana.svg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "children",
+        "title": "Crescimento Saudável, Futuro Promissor: Psicologia Infantil",
+        "paragraph": "Oferecemos serviços dedicados à psicologia infantil, reconhecendo a importância crucial que a saúde mental desempenha no desenvolvimento saudável de nossas crianças. Com abordagens personalizadas, nossa equipe de psicólogos infantis visa criar bases sólidas para uma vida emocionalmente equilibrada, proporcionando orientação adaptada às necessidades específicas de cada criança. Priorizamos a educação emocional para os pais, promovendo estratégias para construir um ambiente favorável ao crescimento saudável, desenvolvimento cognitivo e resiliência emocional. Investir na saúde mental desde cedo é investir no bem-estar duradouro de nossas crianças.",
+        "topText": "Rhoncus, accumsan dictum",
+        "image": "/images/Kids playing with dolls-pana.svg",
+        "button": [
+          {
+            "id": 1,
+            "children": "Conferir"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": "farBeyond",
+        "title": "Muito além do consultório",
+        "paragraph": "Oferecemos serviços abrangentes, incluindo workshops, palestras e treinamentos para empresas e instituições. Nossa equipe de psicólogos está comprometida em fornecer soluções personalizadas e estratégias eficazes para atender às necessidades específicas de nossos clientes em diversas áreas.",
+        "background": "/images/imageModelDescart.jpg",
+        "button": [
+          {
+            "id": 1,
+            "children": "Entre em contato"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "menu",
+        "items": [
+          {
+            "id": 1,
+            "name": "Banner 1",
+            "anchor": "#anchorHome"
+          },
+          {
+            "id": 2,
+            "name": "Banner 2",
+            "anchor": "#anchorCenter"
+          },
+          {
+            "id": 3,
+            "name": "Banner 3",
+            "anchor": "#anchorInfo1"
+          },
+          {
+            "id": 4,
+            "name": "Banner 4",
+            "anchor": "#anchorInfo2"
+          },
+          {
+            "id": 5,
+            "name": "Banner 5",
+            "anchor": "#anchorInfo3"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "cardComent",
+        "title": "Opiniões dos nossos clientes",
+        "subtitle": "Vozes que Inspiram Confiança: Testemunhos Autênticos dos Nossos Clientes",
+        "items": [
+          {
+            "id": 1,
+            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
+            "image": "/images/clientPerfil1.svg",
+            "name": "Jacob da Carrocinha"
+          },
+          {
+            "id": 2,
+            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
+            "image": "/images/clientPerfil1.svg",
+            "name": "Jacob da Carrocinha"
+          },
+          {
+            "id": 3,
+            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
+            "image": "/images/clientPerfil1.svg",
+            "name": "Jacob da Carrocinha"
+          },
+          {
+            "id": 4,
+            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
+            "image": "/images/clientPerfil1.svg",
+            "name": "Jacob da Carrocinha"
+          },
+          {
+            "id": 5,
+            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
+            "image": "/images/clientPerfil1.svg",
+            "name": "Jacob da Carrocinha"
+          },
+          {
+            "id": 5,
+            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
+            "image": "/images/clientPerfil1.svg",
+            "name": "Jacob da Carrocinha"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "example",
+        "title": "Olá",
+        "items": [
+          {
+            "image": "/images/clientProfile1.svg"
+          },
+          {
+            "image": "/images/clientProfile2.svg"
+          },
+          {
+            "image": "/images/clientProfile3.svg"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "speechTherapist",
+    "primaryColor": "var(--clinic-primaryColor)",
+    "secundaryColor": "var(--clinic-secundaryColor)",
+    "tertiaryColor": "var(--clinic-tertiaryColor)",
+    "boxShadowColor": "var(--clinic-boxShadowColor)",
+    "banners": [
+      {
+        "id": 1,
+        "type": "main",
+        "title": "Comunicando com Confiança, Transformando Vidas: Sua Jornada Começa Aqui!",
+        "subtitle": "Terapias Integradas",
+        "paragraph": "Fonoaudiologia Personalizada para Todos: Nosso Fonoaudiólogo Está Pronto para Atender Adultos e Crianças em Nosso Consultório em Petrópolis!",
+        "image": "/images/speechTherapistMain.svg",
+        "button": [
+          {
+            "id": 1,
+            "children": "Conferir"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "center",
+        "title": "Nossas especialidades",
+        "subtitle": "Descubra o Poder da Comunicação: Conheça Nossas Especialidades e Transforme sua Jornada Fonoaudiológica!",
+        "items": [
+          {
+            "id": 1,
+            "title": "Terapia da Fala",
+            "paragraph": "Oferecemos sessões de terapia da fala, proporcionando um ambiente acolhedor para explorar e desenvolver habilidades de comunicação. Nosso fonoaudiólogo utiliza abordagens terapêuticas eficazes para promover a sua comunicação efetiva e confiante.",
+            "image": "/images/Speech therapy-pana.svg"
+          },
+          {
+            "id": 2,
+            "title": "Avaliação da Linguagem",
+            "paragraph": "Realizamos avaliações abrangentes da linguagem para identificar e tratar questões relacionadas à fala e compreensão. Nossa equipe de fonoaudiologia está dedicada a ajudar adultos e crianças a superar desafios linguísticos, promovendo uma comunicação mais clara e eficaz.",
+            "image": "/images/Speech recognition-pana.svg"
+          },
+          {
+            "id": 3,
+            "title": "Terapia de Deglutição",
+            "paragraph": "A terapia de deglutição é essencial para aqueles que enfrentam dificuldades ao engolir. Nossos profissionais em fonoaudiologia oferecem suporte especializado para melhorar a segurança e eficiência do ato de deglutir, promovendo uma alimentação saudável e segura.",
+            "image": "/images/Swallowing-pana.svg"
+          },
+          {
+            "id": 4,
+            "title": "Comunicação Alternativa",
+            "paragraph": "Para indivíduos com dificuldades de comunicação tradicional, oferecemos estratégias de comunicação alternativa. Nosso fonoaudiólogo trabalha para encontrar soluções personalizadas, garantindo que todos tenham a oportunidade de se expressar.",
+            "image": "/images/Communication-pana.svg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "children",
+        "title": "Comunicando com Diversão, Futuro Promissor: Fonoaudiologia Infantil",
+        "paragraph": "Oferecemos serviços dedicados à fonoaudiologia infantil, reconhecendo a importância vital que a comunicação desempenha no desenvolvimento saudável de nossas crianças. Com abordagens personalizadas, nossa equipe de fonoaudiólogos infantis visa criar bases sólidas para uma comunicação efetiva, proporcionando orientação adaptada às necessidades específicas de cada criança. Priorizamos a educação dos pais, promovendo estratégias para desenvolver habilidades linguísticas desde cedo, garantindo um futuro promissor e comunicativo para nossas crianças.",
+        "topText": "Rhoncus, accumsan dictum",
+        "image": "/images/Kids playing with dolls-pana.svg",
+        "button": [
+          {
+            "id": 1,
+            "children": "Conferir"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": "farBeyond",
+        "title": "Muito além do consultório",
+        "paragraph": "Oferecemos serviços abrangentes, incluindo workshops educacionais, palestras para pais e professores, e colaboração com escolas para apoiar o desenvolvimento da linguagem. Nossa equipe de fonoaudiólogos está comprometida em fornecer soluções personalizadas e estratégias eficazes para atender às necessidades específicas de nossos clientes em diversas áreas.",
+        "background": "/images/imageModelDescart.jpg",
+        "button": [
+          {
+            "id": 1,
+            "children": "Entre em contato"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "menu",
+        "items": [
+          {
+            "id": 1,
+            "name": "Banner 1",
+            "anchor": "#anchorHome"
+          },
+          {
+            "id": 2,
+            "name": "Banner 2",
+            "anchor": "#anchorCenter"
+          },
+          {
+            "id": 3,
+            "name": "Banner 3",
+            "anchor": "#anchorInfo1"
+          },
+          {
+            "id": 4,
+            "name": "Banner 4",
+            "anchor": "#anchorInfo2"
+          },
+          {
+            "id": 5,
+            "name": "Banner 5",
+            "anchor": "#anchorInfo3"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "type": "cardComent",
+        "title": "Opiniões dos nossos clientes",
+        "subtitle": "Vozes que Inspiram Confiança: Testemunhos Autênticos dos Nossos Clientes",
+        "items": [
+          {
+            "id": 1,
+            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
+            "image": "/images/clientPerfil1.svg",
+            "name": "Jacob da Carrocinha"
+          },
+          {
+            "id": 2,
+            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
+            "image": "/images/clientPerfil1.svg",
+            "name": "Jacob da Carrocinha"
+          },
+          {
+            "id": 3,
+            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
+            "image": "/images/clientPerfil1.svg",
+            "name": "Jacob da Carrocinha"
+          },
+          {
+            "id": 4,
+            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
+            "image": "/images/clientPerfil1.svg",
+            "name": "Jacob da Carrocinha"
+          },
+          {
+            "id": 5,
+            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
+            "image": "/images/clientPerfil1.svg",
+            "name": "Jacob da Carrocinha"
+          },
+          {
+            "id": 5,
+            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
+            "image": "/images/clientPerfil1.svg",
+            "name": "Jacob da Carrocinha"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "example",
+        "title": "Olá",
+        "items": [
+          {
+            "image": "/images/clientProfile1.svg"
+          },
+          {
+            "image": "/images/clientProfile2.svg"
+          },
+          {
+            "image": "/images/clientProfile3.svg"
+          }
+        ]
+      }
+    ]
+  },
+
   {
     "id": "error",
     "primaryColor": "var(--clinic-primaryColor)",
@@ -472,11 +822,13 @@
       }
     ]
   },
+
   {
     "id": "menuMain",
     "primaryColor": "var(--clinic-primaryColor)",
     "secundaryColor": "var(--clinic-secundaryColor)",
     "terciaryColor": "var(--clinic-terciaryColor)",
+    "image": "/images/logo.png",
     "items": [
       {
         "id": 1,
@@ -496,7 +848,7 @@
       {
         "id": 4,
         "name": "Fonodiólogo",
-        "anchor": "/"
+        "anchor": "/speechTherapist"
       }
     ]
   }
