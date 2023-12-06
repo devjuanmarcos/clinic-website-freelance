@@ -2,8 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 96px 0;
-  height: 100vh;
+  min-height: 100vh;
+  padding: var(--padding);
+  padding-top: 148px;
   width: 100%;
   background-size: 100%;
 }
@@ -19,9 +20,9 @@
 
 .title {
   display: flex;
-  text-align: start;
+  text-align: center;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   width: 100%;
   max-width: 60%;

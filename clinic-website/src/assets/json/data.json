@@ -9,9 +9,10 @@
       {
         "id": 1,
         "type": "main",
-        "title": "Seja muito bem vindo à Villa Amor",
-        "subtitle": "Terapias integradas",
-        "paragraph": "Equipe especializada em Fonoaudiologia, Psicologia, Nutrição e Atendimentos Médicos Personalizados para o seu bem-estar integral.",
+        "title": "Bem-vindo à Villa Amor",
+        "subtitle": "O Seu Espaço de Cuidado Integral",
+        "paragraph": "Descubra um mundo dedicado à sua saúde e bem-estar, onde nossa equipe especializada em Fonoaudiologia, Psicologia, Nutrição e Atendimentos Médicos Personalizados está pronta para transformar a sua jornada de cuidados. Aqui na Villa Amor, o seu bem-estar é a nossa prioridade. Vamos juntos alcançar o equilíbrio para uma vida mais saudável e feliz!",
+        "background": "/images/mainBackground.png",
         "image": "/images/logo.png",
         "button": [
           {
@@ -31,7 +32,7 @@
             "title": "Fonoaudiólogo",
             "paragraph": "Promovemos saúde vocal e auditiva. Diagnóstico preciso e terapias personalizadas para aprimorar a comunicação e a qualidade de vida.",
             "image": "/images/imageModelDescart.jpg",
-            "anchor": "/peechTherapist"
+            "anchor": "/speechTherapist"
           },
           {
             "id": 2,
@@ -209,39 +210,33 @@
         "items": [
           {
             "id": 1,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "paragraph": "“Minha jornada na nutrição foi incrível! A nutricionista foi muito dedicada, elaborando um plano alimentar personalizado que gerou resultados surpreendentes. Estou muito satisfeito com a experiência.”",
+            "name": "Carla da Silva"
           },
           {
             "id": 2,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "paragraph": "“Agradeço por me oferecerem um ambiente acolhedor para discutir minhas preocupações. A terapeuta foi extremamente profissional e empática, tornando minha jornada terapêutica valiosa.”",
+            "name": "Lucas Oliveira"
           },
           {
             "id": 3,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "paragraph": "“Minha experiência na fonologia foi transformadora. Os profissionais foram dedicados, e o tratamento eficaz me ajudou a superar os desafios na fala. Recomendo a todos em busca de soluções eficientes.”",
+            "name": "Juliana Santos"
           },
           {
             "id": 4,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "paragraph": "“Proporcionou uma jornada saudável e personalizada. A nutricionista foi muito atenciosa, criando um plano alimentar que se adequou perfeitamente às minhas necessidades. Estou muito satisfeito com os resultados alcançados.”",
+            "name": "Rodrigo Lima"
           },
           {
             "id": 5,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "paragraph": "“Me ofereceu suporte emocional excepcional. A terapeuta foi empática e profissional, proporcionando um ambiente seguro para explorar minhas emoções. Recomendo a todos em busca de apoio psicológico.”",
+            "name": "Camila Santos"
           },
           {
-            "id": 5,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "id": 6,
+            "paragraph": "“Foi fundamental para aprimorar minha comunicação. Os profissionais foram dedicados e o tratamento eficaz. Recuperei minha confiança na fala, e estou muito satisfeito com os resultados.”",
+            "name": "Marcos Oliveira"
           }
         ]
       },
@@ -389,46 +384,40 @@
         ]
       },
       {
-        "id": 6,
+        "id": 9,
         "type": "cardComent",
-        "title": "Opiniões dos nossos clientes",
-        "subtitle": "Vozes que Inspiram Confiança: Testemunhos Autênticos dos Nossos Clientes",
+        "title": "What our clients says",
+        "subtitle": "Neque, pulvinar vestibulum non aliquam.",
         "items": [
           {
             "id": 1,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "paragraph": "“Minha jornada na nutrição foi incrível! A nutricionista foi muito dedicada, elaborando um plano alimentar personalizado que gerou resultados surpreendentes. Estou muito satisfeito com a experiência.”",
+            "name": "Carla da Silva"
           },
           {
             "id": 2,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "paragraph": "“Agradeço por me oferecerem um ambiente acolhedor para discutir minhas preocupações. A terapeuta foi extremamente profissional e empática, tornando minha jornada terapêutica valiosa.”",
+            "name": "Lucas Oliveira"
           },
           {
             "id": 3,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "paragraph": "“Minha experiência na fonologia foi transformadora. Os profissionais foram dedicados, e o tratamento eficaz me ajudou a superar os desafios na fala. Recomendo a todos em busca de soluções eficientes.”",
+            "name": "Juliana Santos"
           },
           {
             "id": 4,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "paragraph": "“Proporcionou uma jornada saudável e personalizada. A nutricionista foi muito atenciosa, criando um plano alimentar que se adequou perfeitamente às minhas necessidades. Estou muito satisfeito com os resultados alcançados.”",
+            "name": "Rodrigo Lima"
           },
           {
             "id": 5,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "paragraph": "“Me ofereceu suporte emocional excepcional. A terapeuta foi empática e profissional, proporcionando um ambiente seguro para explorar minhas emoções. Recomendo a todos em busca de apoio psicológico.”",
+            "name": "Camila Santos"
           },
           {
-            "id": 5,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "id": 6,
+            "paragraph": "“Foi fundamental para aprimorar minha comunicação. Os profissionais foram dedicados e o tratamento eficaz. Recuperei minha confiança na fala, e estou muito satisfeito com os resultados.”",
+            "name": "Marcos Oliveira"
           }
         ]
       },
@@ -563,46 +552,40 @@
         ]
       },
       {
-        "id": 6,
+        "id": 9,
         "type": "cardComent",
-        "title": "Opiniões dos nossos clientes",
-        "subtitle": "Vozes que Inspiram Confiança: Testemunhos Autênticos dos Nossos Clientes",
+        "title": "What our clients says",
+        "subtitle": "Neque, pulvinar vestibulum non aliquam.",
         "items": [
           {
             "id": 1,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "paragraph": "“Minha jornada na nutrição foi incrível! A nutricionista foi muito dedicada, elaborando um plano alimentar personalizado que gerou resultados surpreendentes. Estou muito satisfeito com a experiência.”",
+            "name": "Carla da Silva"
           },
           {
             "id": 2,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "paragraph": "“Agradeço por me oferecerem um ambiente acolhedor para discutir minhas preocupações. A terapeuta foi extremamente profissional e empática, tornando minha jornada terapêutica valiosa.”",
+            "name": "Lucas Oliveira"
           },
           {
             "id": 3,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "paragraph": "“Minha experiência na fonologia foi transformadora. Os profissionais foram dedicados, e o tratamento eficaz me ajudou a superar os desafios na fala. Recomendo a todos em busca de soluções eficientes.”",
+            "name": "Juliana Santos"
           },
           {
             "id": 4,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "paragraph": "“Proporcionou uma jornada saudável e personalizada. A nutricionista foi muito atenciosa, criando um plano alimentar que se adequou perfeitamente às minhas necessidades. Estou muito satisfeito com os resultados alcançados.”",
+            "name": "Rodrigo Lima"
           },
           {
             "id": 5,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "paragraph": "“Me ofereceu suporte emocional excepcional. A terapeuta foi empática e profissional, proporcionando um ambiente seguro para explorar minhas emoções. Recomendo a todos em busca de apoio psicológico.”",
+            "name": "Camila Santos"
           },
           {
-            "id": 5,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "id": 6,
+            "paragraph": "“Foi fundamental para aprimorar minha comunicação. Os profissionais foram dedicados e o tratamento eficaz. Recuperei minha confiança na fala, e estou muito satisfeito com os resultados.”",
+            "name": "Marcos Oliveira"
           }
         ]
       },
@@ -638,7 +621,7 @@
         "title": "Comunicando com Confiança, Transformando Vidas: Sua Jornada Começa Aqui!",
         "subtitle": "Terapias Integradas",
         "paragraph": "Fonoaudiologia Personalizada para Todos: Nosso Fonoaudiólogo Está Pronto para Atender Adultos e Crianças em Nosso Consultório em Petrópolis!",
-        "image": "/images/speechTherapistMain.svg",
+        "image": "/images/nutricionistMain.svg",
         "button": [
           {
             "id": 1,
@@ -737,46 +720,40 @@
         ]
       },
       {
-        "id": 6,
+        "id": 9,
         "type": "cardComent",
-        "title": "Opiniões dos nossos clientes",
-        "subtitle": "Vozes que Inspiram Confiança: Testemunhos Autênticos dos Nossos Clientes",
+        "title": "What our clients says",
+        "subtitle": "Neque, pulvinar vestibulum non aliquam.",
         "items": [
           {
             "id": 1,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "paragraph": "“Minha jornada na nutrição foi incrível! A nutricionista foi muito dedicada, elaborando um plano alimentar personalizado que gerou resultados surpreendentes. Estou muito satisfeito com a experiência.”",
+            "name": "Carla da Silva"
           },
           {
             "id": 2,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "paragraph": "“Agradeço por me oferecerem um ambiente acolhedor para discutir minhas preocupações. A terapeuta foi extremamente profissional e empática, tornando minha jornada terapêutica valiosa.”",
+            "name": "Lucas Oliveira"
           },
           {
             "id": 3,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "paragraph": "“Minha experiência na fonologia foi transformadora. Os profissionais foram dedicados, e o tratamento eficaz me ajudou a superar os desafios na fala. Recomendo a todos em busca de soluções eficientes.”",
+            "name": "Juliana Santos"
           },
           {
             "id": 4,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "paragraph": "“Proporcionou uma jornada saudável e personalizada. A nutricionista foi muito atenciosa, criando um plano alimentar que se adequou perfeitamente às minhas necessidades. Estou muito satisfeito com os resultados alcançados.”",
+            "name": "Rodrigo Lima"
           },
           {
             "id": 5,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "paragraph": "“Me ofereceu suporte emocional excepcional. A terapeuta foi empática e profissional, proporcionando um ambiente seguro para explorar minhas emoções. Recomendo a todos em busca de apoio psicológico.”",
+            "name": "Camila Santos"
           },
           {
-            "id": 5,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "/images/clientPerfil1.svg",
-            "name": "Jacob da Carrocinha"
+            "id": 6,
+            "paragraph": "“Foi fundamental para aprimorar minha comunicação. Os profissionais foram dedicados e o tratamento eficaz. Recuperei minha confiança na fala, e estou muito satisfeito com os resultados.”",
+            "name": "Marcos Oliveira"
           }
         ]
       },
@@ -803,7 +780,8 @@
     "id": "error",
     "primaryColor": "var(--clinic-primaryColor)",
     "secundaryColor": "var(--clinic-secundaryColor)",
-    "terciaryColor": "var(--clinic-terciaryColor)",
+    "tertiaryColor": "var(--clinic-tertiaryColor)",
+    "boxShadowColor": "var(--clinic-boxShadowColor)",
     "banners": [
       {
         "id": 1,

@@ -10,7 +10,7 @@ export default function CarouselCardsBanner({ type }) {
   useEffect(() => {
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
   }, []);
-
+  // eslint-disable-next-line
   const [filteredId, filteredBanner, background, revertPosition, anchor] = type;
 
   return (

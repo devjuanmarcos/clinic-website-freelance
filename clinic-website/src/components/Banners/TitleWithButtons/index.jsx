@@ -11,13 +11,15 @@ export default function TitleWithButtons({ type }) {
       {filteredBanner.map((banner) => (
         <section
           style={
-            banner.background
+            !background && banner.background
               ? {
                   backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${banner.background})`,
                   backgroundSize: "cover",
                   margin: "96px 0",
                 }
-              : null
+              : background
+              ? { backgroundColor: background }
+              : undefined
           }
           className={styles.main}
           id={anchor}
@@ -26,12 +28,22 @@ export default function TitleWithButtons({ type }) {
             <div className={styles.title}>
               {banner.topText ? (
                 <p
-                  style={banner.background ? { color: "var(--branco)" } : null}
+                  style={
+                    banner.background || background
+                      ? { color: "var(--branco)" }
+                      : null
+                  }
                 >
                   {banner.topText}
                 </p>
               ) : undefined}
-              <h2 style={banner.background ? { color: "var(--branco)" } : null}>
+              <h2
+                style={
+                  banner.background || background
+                    ? { color: "var(--branco)" }
+                    : null
+                }
+              >
                 {banner.title}
               </h2>
               {banner.paragraph ? (

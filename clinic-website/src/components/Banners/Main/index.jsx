@@ -9,11 +9,14 @@ export default function MainBanner({ type }) {
       {filteredBanner.map((banner) => (
         <section
           style={
-            background
+            !background && banner.background
               ? {
-                  backgroundColor: background,
+                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${banner.background})`,
+                  backgroundSize: "cover",
                 }
-              : null
+              : background
+              ? { backgroundColor: background }
+              : undefined
           }
           className={styles.main}
           id={anchor}
@@ -23,8 +26,24 @@ export default function MainBanner({ type }) {
             style={revertPosition ? { flexDirection: "row-reverse" } : {}}
           >
             <div className={styles.title}>
-              <h1>{banner.title}</h1>
-              <p>{banner.paragraph}</p>
+              <h1
+                style={
+                  background || banner.background
+                    ? { color: "var(--branco)" }
+                    : undefined
+                }
+              >
+                {banner.title}
+              </h1>
+              <p
+                style={
+                  background || banner.background
+                    ? { color: "var(--branco)" }
+                    : undefined
+                }
+              >
+                {banner.paragraph}
+              </p>
               {banner.button.map((button) => (
                 <SimpleButton
                   children={button.children}

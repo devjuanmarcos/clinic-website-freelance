@@ -46,27 +46,24 @@ html {
   --clinic-secundaryColor: #c87000;
   --clinic-terciaryColor: #7c0e00;
   --clinic-boxShadowColor: #042e00;
-  /* --clinic-backgroundColor: #000000; */
+  --clinic-backgroundColor: #ebedee;
 
-  /* Alterar as cores futuramente para acessibilidade com botão de troca */
   --branco: #fff;
   --branco-medio: #161616;
   --preto: #2f3941;
   --secundria-preto: #232323;
   --cinza: #535f68;
   --cinza-fundo: #ebedee;
-  /* --fonte-principal: "Montserrat", sans-serif;
-  --fonte-secundaria: "Lato", sans-serif; */
 
-  --cinza-fundo: #ebedee;
   --fonte-principal: "Roboto", sans-serif;
   --fonte-alternativa: "Felbridge W04 ExtraBold";
   --fonte-secundaria: "Playfair Display", sans-serif;
   --fonte-teste: "testeFonte";
   --fonte-cursiva: "cursivaFonte";
   --fonte-card: "Spicy Rice", cursive;
-
   font-family: var(--fonte-principal);
+
+  --padding: 72px 0;
 }
 
 head {

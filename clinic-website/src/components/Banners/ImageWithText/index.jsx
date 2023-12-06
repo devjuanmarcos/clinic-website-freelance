@@ -24,8 +24,12 @@ export default function ImageWithText({ type }) {
             style={revertPosition ? { flexDirection: "row-reverse" } : {}}
           >
             <div className={styles.title}>
-              <h2>{banner.title}</h2>
-              <p>{banner.paragraph}</p>
+              <h2 style={background ? { color: "var(--branco)" } : undefined}>
+                {banner.title}
+              </h2>
+              <p style={background ? { color: "var(--branco)" } : undefined}>
+                {banner.paragraph}
+              </p>
               {banner.button.map((button) => (
                 <SimpleButton
                   children={button.children}
@@ -36,17 +40,15 @@ export default function ImageWithText({ type }) {
                 />
               ))}
             </div>
-            <div className={styles.infos}>
-              <div
-                className={styles.imageBox}
-                style={revertPosition ? { justifyContent: "flex-start" } : {}}
-              >
-                <img
-                  className={styles.image}
-                  src={banner.image}
-                  alt=''
-                />
-              </div>
+            <div
+              className={styles.imageBox}
+              style={revertPosition ? { justifyContent: "flex-start" } : {}}
+            >
+              <img
+                className={styles.image}
+                src={banner.image}
+                alt=''
+              />
             </div>
           </div>
         </section>

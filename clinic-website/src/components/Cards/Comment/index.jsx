@@ -38,10 +38,12 @@ export default function CommentCard({ paragraph, image, name }) {
         <motion.div className={styles.paragraph}>
           <p>{paragraph}</p>
         </motion.div>
-        <img
-          src={image}
-          alt='none'
-        />
+        {image ? (
+          <img
+            src={image}
+            alt='none'
+          />
+        ) : null}
 
         <p>{name}</p>
       </motion.div>

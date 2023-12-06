@@ -2,6 +2,7 @@ import styles from "./styles.module.css";
 import React from "react";
 
 import data from "assets/json/data.json";
+// eslint-disable-next-line
 import background from "assets/images/circulos.svg";
 
 import MainBanner from "components/Banners/Main";
@@ -10,6 +11,7 @@ import ImageWithText from "components/Banners/ImageWithText";
 import TitleWithButtons from "components/Banners/TitleWithButtons";
 import Menu from "components/Menu";
 import CardCarouselBanner from "components/Banners/CardCarousel";
+// eslint-disable-next-line
 import ImageApresentationBanner from "components/Banners/ImagesApresentation";
 
 export default function Home({ pageId }) {
@@ -53,11 +55,7 @@ export default function Home({ pageId }) {
       />
 
       <ImageWithText
-        type={filteredBanner("info1", false, false, "anchorInfo1")}
-      />
-
-      <TitleWithButtons
-        type={filteredBanner("info2", false, false, "anchorInfo2")}
+        type={filteredBanner("info1", "rgb(45 61 54)", false, "anchorInfo1")}
       />
 
       {/* <ImageWithText
@@ -66,6 +64,10 @@ export default function Home({ pageId }) {
 
       <CardCarouselBanner
         type={filteredBanner("cardComent", false, false, false)}
+      />
+
+      <TitleWithButtons
+        type={filteredBanner("info2", "rgb(228 112 41)", false, "anchorInfo2")}
       />
     </section>
   );
