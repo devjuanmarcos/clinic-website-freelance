@@ -60,7 +60,7 @@ export default function Home({ pageId }) {
 
       {/* <ImageWithText
         type={filteredBanner("info3", false, true, "anchorInfo3")}
-      /> */}
+      /> z*/}
 
       <CardCarouselBanner
         type={filteredBanner("cardComent", false, false, false)}
