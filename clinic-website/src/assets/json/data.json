@@ -31,21 +31,21 @@
             "id": 1,
             "title": "Fonoaudiólogo",
             "paragraph": "Promovemos saúde vocal e auditiva. Diagnóstico preciso e terapias personalizadas para aprimorar a comunicação e a qualidade de vida.",
-            "image": "/images/imageModelDescart.jpg",
+            "image": "/images/fono.svg",
             "anchor": "/speechTherapist"
           },
           {
             "id": 2,
             "title": "Psicólogo",
             "paragraph": "Cuidamos da sua saúde mental. Terapias individualizadas para superar desafios, promover bem-estar emocional e construir relacionamentos saudáveis.",
-            "image": "/images/imageModelDescart.jpg",
+            "image": "/images/psicol.svg",
             "anchor": "/psychologist"
           },
           {
             "id": 3,
             "title": "Nutricionista",
             "paragraph": "Transforme sua alimentação, transforme sua vida. Planos nutricionais personalizados para alcançar metas de saúde, equilibrando corpo e mente.",
-            "image": "/images/imageModelDescart.jpg",
+            "image": "/images/nutri.svg",
             "anchor": "/nutricionist"
           }
         ]
@@ -81,98 +81,9 @@
           }
         ]
       },
+
       {
         "id": 5,
-        "type": "info3",
-        "title": "Etiam nulla lectus amet nunc molestie",
-        "paragraph": "Metus, diam pretium at at morbi vulputate et. Tellus ipsum sollicitudin ut eu a lectus potenti maecenas",
-        "topText": "Rhoncus, accumsan dictum",
-        "image": "/images/imageModelDescart.svg",
-        "button": [
-          {
-            "id": 1,
-            "children": "Conferir"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "type": "info4",
-        "title": "What our clients says",
-        "subtitle": "Neque, pulvinar vestibulum non aliquam.",
-        "items": [
-          {
-            "id": 1,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "",
-            "name": "Courtney Henry",
-            "stars": 5
-          },
-          {
-            "id": 2,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "",
-            "name": "Courtney Henry",
-            "stars": 5
-          },
-          {
-            "id": 3,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "",
-            "name": "Courtney Henry",
-            "stars": 5
-          },
-          {
-            "id": 4,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "",
-            "name": "Courtney Henry",
-            "stars": 5
-          },
-          {
-            "id": 5,
-            "paragraph": "“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”",
-            "image": "",
-            "name": "Courtney Henry",
-            "stars": 5
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "type": "info5",
-        "title": "what our clients says",
-        "subtitle": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
-        "items": [
-          {
-            "id": 1,
-            "title": "How soon will my order ship?",
-            "paragraph": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
-          },
-          {
-            "id": 2,
-            "title": "How soon will my order ship?",
-            "paragraph": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
-          },
-          {
-            "id": 3,
-            "title": "How soon will my order ship?",
-            "paragraph": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
-          },
-          {
-            "id": 4,
-            "title": "How soon will my order ship?",
-            "paragraph": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
-          },
-          {
-            "id": 5,
-            "title": "How soon will my order ship?",
-            "paragraph": "Venenatis, fames a a, in. Morbi pellentesque lacus, purus in tristique justo, pretium egestas. Commodo leo nisl consectetur nisi, tortor, erat sit at aliquet. Ultrices in aliquam maecenas cursus. Sed enim cursus augue quis risus. Ac donec quisque vitae feugiat dignissim diam."
-          }
-        ]
-      },
-      {
-        "id": 8,
         "type": "menu",
         "items": [
           {
@@ -203,10 +114,10 @@
         ]
       },
       {
-        "id": 9,
+        "id": 6,
         "type": "cardComent",
-        "title": "What our clients says",
-        "subtitle": "Neque, pulvinar vestibulum non aliquam.",
+        "title": "O que nossos clientes dizem",
+        "subtitle": "Confie na nossa experiência e resultados",
         "items": [
           {
             "id": 1,
@@ -237,22 +148,6 @@
             "id": 6,
             "paragraph": "“Foi fundamental para aprimorar minha comunicação. Os profissionais foram dedicados e o tratamento eficaz. Recuperei minha confiança na fala, e estou muito satisfeito com os resultados.”",
             "name": "Marcos Oliveira"
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "type": "example",
-        "title": "Olá",
-        "items": [
-          {
-            "image": "/images/imageTest1.jpg"
-          },
-          {
-            "image": "/images/imageTest3.jpg"
-          },
-          {
-            "image": "/images/imageTest2.jpg"
           }
         ]
       }
@@ -384,10 +279,10 @@
         ]
       },
       {
-        "id": 9,
+        "id": 6,
         "type": "cardComent",
-        "title": "What our clients says",
-        "subtitle": "Neque, pulvinar vestibulum non aliquam.",
+        "title": "O que nossos clientes dizem",
+        "subtitle": "Confie na nossa experiência e resultados",
         "items": [
           {
             "id": 1,
@@ -552,10 +447,10 @@
         ]
       },
       {
-        "id": 9,
+        "id": 6,
         "type": "cardComent",
-        "title": "What our clients says",
-        "subtitle": "Neque, pulvinar vestibulum non aliquam.",
+        "title": "O que nossos clientes dizem",
+        "subtitle": "Confie na nossa experiência e resultados",
         "items": [
           {
             "id": 1,
@@ -720,10 +615,10 @@
         ]
       },
       {
-        "id": 9,
+        "id": 6,
         "type": "cardComent",
-        "title": "What our clients says",
-        "subtitle": "Neque, pulvinar vestibulum non aliquam.",
+        "title": "O que nossos clientes dizem",
+        "subtitle": "Confie na nossa experiência e resultados",
         "items": [
           {
             "id": 1,

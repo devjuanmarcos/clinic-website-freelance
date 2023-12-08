@@ -108,7 +108,7 @@ export default function Menu({ type }) {
   return (
     <section style={{ width: "100%", position: "fixed", zIndex: "2" }}>
       <MenuMain />
-      <SubMenu type={type} />
+      {/* <SubMenu type={type} /> */}
     </section>
   );
 }

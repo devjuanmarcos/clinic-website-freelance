@@ -3,7 +3,6 @@ import React from "react";
 
 import data from "assets/json/data.json";
 // eslint-disable-next-line
-import background from "assets/images/circulos.svg";
 
 import MainBanner from "components/Banners/Main";
 import ThreeMiniBanners from "components/Banners/ThreeMini";
