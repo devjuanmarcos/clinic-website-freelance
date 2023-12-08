@@ -168,6 +168,7 @@
         "subtitle": "Terapias integradas",
         "paragraph": "Nutrição Personalizada para Toda a Família: Nossa Nutricionista Está Pronta para Atender Adultos e Crianças em Nossa Clínica em Petrópolis!",
         "image": "/images/nutricionistMain.svg",
+        "background": "/images/mainBackground.png",
         "button": [
           {
             "id": 1,
@@ -349,6 +350,7 @@
         "subtitle": "Terapias Integradas",
         "paragraph": "A Psicologia Personalizada para Todos: Nosso Psicólogo Está Pronto para Atender Adultos e Crianças em Nosso Consultório em Petrópolis!",
         "image": "/images/nutricionistMain.svg",
+        "background": "/images/mainBackground.png",
         "button": [
           {
             "id": 1,
@@ -517,6 +519,7 @@
         "subtitle": "Terapias Integradas",
         "paragraph": "Fonoaudiologia Personalizada para Todos: Nosso Fonoaudiólogo Está Pronto para Atender Adultos e Crianças em Nosso Consultório em Petrópolis!",
         "image": "/images/nutricionistMain.svg",
+        "background": "/images/mainBackground.png",
         "button": [
           {
             "id": 1,
@@ -705,7 +708,7 @@
     "items": [
       {
         "id": 1,
-        "name": "Home",
+        "name": "Início",
         "anchor": "/"
       },
       {
