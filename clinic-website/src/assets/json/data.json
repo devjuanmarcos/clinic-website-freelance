@@ -54,7 +54,7 @@
         "id": 3,
         "type": "info1",
         "title": "Fácil acesso e estacionamento gratuito",
-        "paragraph": "Pensado em facilitar o pré atendimento nós atendemos em um local de fácil acesso e com disponibilidade de estacionamento para seu veículo.",
+        "paragraph": "Localizado na Rua João Caetano, número 186, e projetado para tornar o pré-atendimento mais conveniente, nosso espaço está situado em um local de fácil acesso, com a comodidade de estacionamento para o seu veículo.",
         "topText": "Rhoncus, accumsan dictum",
         "image": "/images/Parking-amico.svg",
         "button": [
@@ -69,6 +69,7 @@
         "type": "info2",
         "title": "Siga a gente nas redes sociais ou entre em contato para receber as informações em primeira mão",
         "topText": "Não fique por fora de nenhuma novidade",
+        "botText": "Ou ligue pra gente: (24) 2249-1625",
         "button": [
           {
             "id": 1,

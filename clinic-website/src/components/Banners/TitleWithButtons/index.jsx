@@ -53,6 +53,17 @@ export default function TitleWithButtons({ type }) {
                   {banner.paragraph}
                 </p>
               ) : undefined}
+              {banner.botText ? (
+                <p
+                  style={
+                    banner.background || background
+                      ? { color: "var(--branco)" }
+                      : null
+                  }
+                >
+                  {banner.botText}
+                </p>
+              ) : undefined}
               <div className={styles.buttonBox}>
                 {banner.button.map((button) => (
                   <SimpleButton
