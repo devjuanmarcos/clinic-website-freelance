@@ -1,25 +1,66 @@
 .main {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: var(--padding);
   height: 100%;
-  width: 100%;
-  background-size: 100%;
   overflow: hidden;
+  background-size: 100%;
 }
 
 .content {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
   width: 80vw;
   gap: 40px;
+}
+
+.title {
+  text-align: center;
+}
+
+.carousel {
   overflow: hidden;
+  cursor: grab;
+}
+
+.inner {
+  display: flex;
+  gap: 60px;
 }
 
 @media (max-width: 480px) {
-  .main {
-    display: none;
+  .itemBox {
+    flex-direction: column;
+    width: 100%;
   }
+  .item {
+    width: 100%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .itemBox {
+    flex-direction: column;
+    width: 100%;
+  }
+  .item {
+    width: 100%;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 414px;
+  height: 323px;
+  gap: 28px;
+  pointer-events: none;
+}
+
+.container img {
+  width: auto;
+  height: 80vh;
 }

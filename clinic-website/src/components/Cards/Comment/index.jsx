@@ -7,37 +7,41 @@ export default function CommentCard({ paragraph, image, name }) {
   return (
     <>
       <motion.div className={styles.container}>
-        <motion.div className={styles.star}>
-          <IconComponent
-            iconName={"AiFillStar"}
-            color={"#3261e9"}
-            size={24}
-          />
-          <IconComponent
-            iconName={"AiFillStar"}
-            color={"#3261e9"}
-            size={24}
-          />
-          <IconComponent
-            iconName={"AiFillStar"}
-            color={"#3261e9"}
-            size={24}
-          />
-          <IconComponent
-            iconName={"AiFillStar"}
-            color={"#3261e9"}
-            size={24}
-          />
-          <IconComponent
-            iconName={"AiFillStar"}
-            color={"#3261e9"}
-            size={24}
-          />
-        </motion.div>
+        {paragraph ? (
+          <motion.div className={styles.star}>
+            <IconComponent
+              iconName={"AiFillStar"}
+              color={"#3261e9"}
+              size={24}
+            />
+            <IconComponent
+              iconName={"AiFillStar"}
+              color={"#3261e9"}
+              size={24}
+            />
+            <IconComponent
+              iconName={"AiFillStar"}
+              color={"#3261e9"}
+              size={24}
+            />
+            <IconComponent
+              iconName={"AiFillStar"}
+              color={"#3261e9"}
+              size={24}
+            />
+            <IconComponent
+              iconName={"AiFillStar"}
+              color={"#3261e9"}
+              size={24}
+            />
+          </motion.div>
+        ) : undefined}
+        {paragraph ? (
+          <motion.div className={styles.paragraph}>
+            <p>{paragraph}</p>
+          </motion.div>
+        ) : undefined}
 
-        <motion.div className={styles.paragraph}>
-          <p>{paragraph}</p>
-        </motion.div>
         {image ? (
           <img
             src={image}

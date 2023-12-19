@@ -82,7 +82,6 @@
           }
         ]
       },
-
       {
         "id": 5,
         "type": "menu",
@@ -149,6 +148,107 @@
             "id": 6,
             "paragraph": "“Foi fundamental para aprimorar minha comunicação. Os profissionais foram dedicados e o tratamento eficaz. Recuperei minha confiança na fala, e estou muito satisfeito com os resultados.”",
             "name": "Marcos Oliveira"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "imagesCarouselMain",
+        "items": [
+          {
+            "id": 1,
+            "image": "/images/carousel/WhatsApp.jpeg",
+            "alt": "clínica"
+          },
+          {
+            "id": 2,
+            "image": "/images/carousel/WhatsApp2.jpeg",
+            "alt": "clínica"
+          },
+          {
+            "id": 3,
+            "image": "/images/carousel/WhatsApp3.jpeg",
+            "alt": "clínica"
+          },
+          {
+            "id": 4,
+            "image": "/images/carousel/WhatsApp4.jpeg",
+            "alt": "clínica"
+          },
+          {
+            "id": 5,
+            "image": "/images/carousel/WhatsApp5.jpeg",
+            "alt": "clínica"
+          },
+          {
+            "id": 6,
+            "image": "/images/carousel/WhatsApp6.jpeg",
+            "alt": "clínica"
+          },
+          {
+            "id": 7,
+            "image": "/images/carousel/WhatsApp7.jpeg",
+            "alt": "clínica"
+          },
+          {
+            "id": 8,
+            "image": "/images/carousel/WhatsApp8.jpeg",
+            "alt": "clínica"
+          },
+          {
+            "id": 9,
+            "image": "/images/carousel/WhatsApp9.jpeg",
+            "alt": "clínica"
+          },
+          {
+            "id": 10,
+            "image": "/images/carousel/WhatsApp10.jpeg",
+            "alt": "clínica"
+          },
+          {
+            "id": 11,
+            "image": "/images/carousel/WhatsApp11.jpeg",
+            "alt": "clínica"
+          },
+          {
+            "id": 12,
+            "image": "/images/carousel/WhatsApp12.jpeg",
+            "alt": "clínica"
+          },
+          {
+            "id": 13,
+            "image": "/images/carousel/WhatsApp13.jpeg",
+            "alt": "clínica"
+          },
+          {
+            "id": 14,
+            "image": "/images/carousel/WhatsApp14.jpeg",
+            "alt": "clínica"
+          },
+          {
+            "id": 15,
+            "image": "/images/carousel/WhatsApp15.jpeg",
+            "alt": "clínica"
+          },
+          {
+            "id": 16,
+            "image": "/images/carousel/WhatsApp16.jpeg",
+            "alt": "clínica"
+          },
+          {
+            "id": 17,
+            "image": "/images/carousel/WhatsApp17.jpeg",
+            "alt": "clínica"
+          },
+          {
+            "id": 18,
+            "image": "/images/carousel/WhatsApp18.jpeg",
+            "alt": "clínica"
+          },
+          {
+            "id": 19,
+            "image": "/images/carousel/WhatsApp19.jpeg",
+            "alt": "clínica"
           }
         ]
       }

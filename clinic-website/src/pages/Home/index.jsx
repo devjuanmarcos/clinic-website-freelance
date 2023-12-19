@@ -47,6 +47,10 @@ export default function Home({ pageId }) {
 
       <MainBanner type={filteredBanner("main", false, false, "anchorHome")} />
 
+      <ImageApresentationBanner
+        type={filteredBanner("imagesCarouselMain", false, false, "1")}
+      />
+
       {/* <ImageApresentationBanner type={filteredBanner("example")} /> */}
 
       <ThreeMiniBanners
