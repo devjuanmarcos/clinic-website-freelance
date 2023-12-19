@@ -469,25 +469,25 @@
             "id": 1,
             "title": "Psicoterapia Individual",
             "paragraph": "Oferecemos sessões de psicoterapia individual, proporcionando um espaço seguro para explorar seus pensamentos, sentimentos e desafios pessoais. Nosso psicólogo utiliza abordagens terapêuticas eficazes para promover o seu bem-estar emocional e mental.",
-            "image": "/images/Psychology-pana.svg"
+            "image": "/images/Doctors-amico.svg"
           },
           {
             "id": 2,
             "title": "Terapia de Casal",
             "paragraph": "A terapia de casal visa fortalecer relacionamentos, melhorar a comunicação e encontrar soluções para desafios conjugais. Nossas sessões são conduzidas por um psicólogo especializado em terapia de casal, oferecendo suporte e orientação para construir relações saudáveis e duradouras.",
-            "image": "/images/Couple therapy-pana.svg"
+            "image": "/images/Questions-amico.svg"
           },
           {
             "id": 3,
             "title": "Aconselhamento Familiar",
             "paragraph": "O aconselhamento familiar é essencial para promover a compreensão mútua, resolver conflitos e fortalecer os laços familiares. Nossos profissionais em psicologia familiar estão dedicados a ajudar sua família a enfrentar desafios e construir um ambiente harmonioso.",
-            "image": "/images/Family time-pana.svg"
+            "image": "/images/Cardiologist-amico.svg"
           },
           {
             "id": 4,
             "title": "Gestão do Estresse",
             "paragraph": "A gestão do estresse é fundamental para a saúde mental. Nossos serviços de psicologia incluem estratégias eficazes para lidar com o estresse, desenvolvendo habilidades de enfrentamento e promovendo o equilíbrio emocional.",
-            "image": "/images/Stress management-pana.svg"
+            "image": "/images/Problem solving-amico.svg"
           }
         ]
       },
@@ -497,7 +497,7 @@
         "title": "Crescimento Saudável, Futuro Promissor: Psicologia Infantil",
         "paragraph": "Oferecemos serviços dedicados à psicologia infantil, reconhecendo a importância crucial que a saúde mental desempenha no desenvolvimento saudável de nossas crianças. Com abordagens personalizadas, nossa equipe de psicólogos infantis visa criar bases sólidas para uma vida emocionalmente equilibrada, proporcionando orientação adaptada às necessidades específicas de cada criança. Priorizamos a educação emocional para os pais, promovendo estratégias para construir um ambiente favorável ao crescimento saudável, desenvolvimento cognitivo e resiliência emocional. Investir na saúde mental desde cedo é investir no bem-estar duradouro de nossas crianças.",
         "topText": "Rhoncus, accumsan dictum",
-        "image": "/images/Kids playing with dolls-pana.svg",
+        "image": "/images/Kindergarten student-amico.svg",
         "button": [
           {
             "id": 1,
@@ -638,25 +638,25 @@
             "id": 1,
             "title": "Terapia da Fala",
             "paragraph": "Oferecemos sessões de terapia da fala, proporcionando um ambiente acolhedor para explorar e desenvolver habilidades de comunicação. Nosso fonoaudiólogo utiliza abordagens terapêuticas eficazes para promover a sua comunicação efetiva e confiante.",
-            "image": "/images/Speech therapy-pana.svg"
+            "image": "/images/Online Doctor-amico.svg"
           },
           {
             "id": 2,
             "title": "Avaliação da Linguagem",
             "paragraph": "Realizamos avaliações abrangentes da linguagem para identificar e tratar questões relacionadas à fala e compreensão. Nossa equipe de fonoaudiologia está dedicada a ajudar adultos e crianças a superar desafios linguísticos, promovendo uma comunicação mais clara e eficaz.",
-            "image": "/images/Speech recognition-pana.svg"
+            "image": "/images/Medical care-amico.svg"
           },
           {
             "id": 3,
             "title": "Terapia de Deglutição",
             "paragraph": "A terapia de deglutição é essencial para aqueles que enfrentam dificuldades ao engolir. Nossos profissionais em fonoaudiologia oferecem suporte especializado para melhorar a segurança e eficiência do ato de deglutir, promovendo uma alimentação saudável e segura.",
-            "image": "/images/Swallowing-pana.svg"
+            "image": "/images/Diabetes-amico.svg"
           },
           {
             "id": 4,
             "title": "Comunicação Alternativa",
             "paragraph": "Para indivíduos com dificuldades de comunicação tradicional, oferecemos estratégias de comunicação alternativa. Nosso fonoaudiólogo trabalha para encontrar soluções personalizadas, garantindo que todos tenham a oportunidade de se expressar.",
-            "image": "/images/Communication-pana.svg"
+            "image": "/images/Webinar-amico.svg"
           }
         ]
       },
@@ -666,7 +666,7 @@
         "title": "Comunicando com Diversão, Futuro Promissor: Fonoaudiologia Infantil",
         "paragraph": "Oferecemos serviços dedicados à fonoaudiologia infantil, reconhecendo a importância vital que a comunicação desempenha no desenvolvimento saudável de nossas crianças. Com abordagens personalizadas, nossa equipe de fonoaudiólogos infantis visa criar bases sólidas para uma comunicação efetiva, proporcionando orientação adaptada às necessidades específicas de cada criança. Priorizamos a educação dos pais, promovendo estratégias para desenvolver habilidades linguísticas desde cedo, garantindo um futuro promissor e comunicativo para nossas crianças.",
         "topText": "Rhoncus, accumsan dictum",
-        "image": "/images/Kids playing with dolls-pana.svg",
+        "image": "/images/Learning-amico.svg",
         "button": [
           {
             "id": 1,
