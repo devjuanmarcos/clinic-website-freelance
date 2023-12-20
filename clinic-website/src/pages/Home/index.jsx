@@ -12,6 +12,7 @@ import Menu from "components/Menu";
 import CardCarouselBanner from "components/Banners/CardCarousel";
 // eslint-disable-next-line
 import ImageApresentationBanner from "components/Banners/ImagesApresentation";
+import IconWithTitleBanner from "components/Banners/IconWithTitle";
 
 export default function Home({ pageId }) {
   const filteredId = data.find((data) => data.id === pageId);
@@ -71,6 +72,10 @@ export default function Home({ pageId }) {
 
       <TitleWithButtons
         type={filteredBanner("info2", "rgb(228 112 41)", false, "anchorInfo2")}
+      />
+
+      <IconWithTitleBanner
+        type={filteredBanner("specialties", false, false, false)}
       />
     </section>
   );

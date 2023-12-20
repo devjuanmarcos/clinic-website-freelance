@@ -260,73 +260,73 @@
         "items": [
           {
             "id": 1,
-            "nome": "Arteterapia",
-            "descricao": "Expressão criativa para o bem-estar emocional."
+            "title": "Arteterapia",
+            "paragraph": "Expressão criativa para o bem-estar emocional."
           },
           {
             "id": 2,
-            "nome": "Neuropsicopedagogia",
-            "descricao": "Integração de neurociência e aprendizado."
+            "title": "Neuropsicopedagogia",
+            "paragraph": "Integração de neurociência e aprendizado."
           },
           {
             "id": 3,
-            "nome": "Neurologia",
-            "descricao": "Tratamento de distúrbios neurológicos."
+            "title": "Neurologia",
+            "paragraph": "Tratamento de distúrbios neurológicos."
           },
           {
             "id": 4,
-            "nome": "Nutrição",
-            "descricao": "Promoção de uma alimentação saudável."
+            "title": "Nutrição",
+            "paragraph": "Promoção de uma alimentação saudável."
           },
           {
             "id": 5,
-            "nome": "Nutrição (Materno Infantil)",
-            "descricao": "Cuidado nutricional para mães e crianças."
+            "title": "Nutrição (Materno Infantil)",
+            "paragraph": "Cuidado nutricional para mães e crianças."
           },
           {
             "id": 6,
-            "nome": "Musicoterapia",
-            "descricao": "Terapia através da música e expressão sonora."
+            "title": "Musicoterapia",
+            "paragraph": "Terapia através da música e expressão sonora."
           },
           {
             "id": 7,
-            "nome": "Psicopedagogia",
-            "descricao": "Abordagem pedagógica para dificuldades de aprendizagem."
+            "title": "Psicopedagogia",
+            "paragraph": "Abordagem pedagógica para dificuldades de aprendizagem."
           },
           {
             "id": 8,
-            "nome": "Psicologia (Clínica)",
-            "descricao": "Apoio psicológico para questões emocionais."
+            "title": "Psicologia (Clínica)",
+            "paragraph": "Apoio psicológico para questões emocionais."
           },
           {
             "id": 9,
-            "nome": "Psicologia TEA",
-            "descricao": "Atendimento especializado em Transtorno do Espectro Autista."
+            "title": "Psicologia TEA",
+            "paragraph": "Atendimento especializado em Transtorno do Espectro Autista."
           },
           {
             "id": 10,
-            "nome": "Psiquiatria",
-            "descricao": "Avaliação e tratamento de saúde mental."
+            "title": "Psiquiatria",
+            "paragraph": "Avaliação e tratamento de saúde mental."
           },
           {
             "id": 11,
-            "nome": "Neuropsicopedagogia TEA",
-            "descricao": "Intervenções pedagógicas para TEA."
+            "title": "Neuropsicopedagogia TEA",
+            "paragraph": "Intervenções pedagógicas para TEA."
           },
           {
             "id": 12,
-            "nome": "Psicopedagogia TEA",
-            "descricao": "Suporte pedagógico para TEA."
+            "title": "Psicopedagogia TEA",
+            "paragraph": "Suporte pedagógico para TEA."
           },
           {
             "id": 13,
-            "nome": "Cardiologia",
-            "descricao": "Cuidado cardíaco e prevenção de doenças."
+            "title": "Cardiologia",
+            "paragraph": "Cuidado cardíaco e prevenção de doenças."
           },
           {
             "id": 14,
-            "nome": "Dermatologia",
-            "descricao": "Tratamento de condições da pele."
+            "title": "Dermatologia",
+            "paragraph": "Tratamento de condições da pele."
           }
         ]
       }

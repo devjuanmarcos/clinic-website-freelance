@@ -1,0 +1,54 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 96px 0;
+  text-align: center;
+}
+
+.content {
+  margin-top: 40px;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px 60px; /* 16px entre as linhas, 20px entre as colunas */
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  gap: 16px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: auto;
+  height: auto;
+}
+
+@media (max-width: 800px) {
+  .main {
+    width: 92vw;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 400px) {
+  .text h3 {
+    font-size: 24px;
+  }
+}
