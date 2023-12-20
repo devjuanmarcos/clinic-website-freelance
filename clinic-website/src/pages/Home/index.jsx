@@ -7,12 +7,13 @@ import data from "assets/json/data.json";
 import MainBanner from "components/Banners/Main";
 import ThreeMiniBanners from "components/Banners/ThreeMini";
 import ImageWithText from "components/Banners/ImageWithText";
-import TitleWithButtons from "components/Banners/TitleWithButtons";
+import TitleWithButtonsBanner from "components/Banners/TitleWithButtons";
 import Menu from "components/Menu";
 import CardCarouselBanner from "components/Banners/CardCarousel";
 // eslint-disable-next-line
 import ImageApresentationBanner from "components/Banners/ImagesApresentation";
 import IconWithTitleBanner from "components/Banners/IconWithTitle";
+import TitleWithMapBanner from "components/Banners/TitleWithMap";
 
 export default function Home({ pageId }) {
   const filteredId = data.find((data) => data.id === pageId);
@@ -70,12 +71,16 @@ export default function Home({ pageId }) {
         type={filteredBanner("cardComent", false, false, false)}
       />
 
-      <TitleWithButtons
+      <TitleWithButtonsBanner
         type={filteredBanner("info2", "rgb(228 112 41)", false, "anchorInfo2")}
       />
 
       <IconWithTitleBanner
         type={filteredBanner("specialties", false, false, false)}
+      />
+
+      <TitleWithMapBanner
+        type={filteredBanner("map", "rgb(45 61 54)", false, "anchorInfo1")}
       />
     </section>
   );

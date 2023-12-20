@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--padding);
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 80%;
+  gap: 40px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 16px;
+}
+
+.imageBox {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 80%;
+  gap: 16px;
+}
+
+.imageBox img {
+  width: 100%;
+  height: auto;
+  border-radius: 32px;
+}

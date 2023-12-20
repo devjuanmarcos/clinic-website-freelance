@@ -1,11 +1,16 @@
 import styles from "./styles.module.css";
 import React from "react";
 
-import SimpleButton from "components/Buttons/Simple";
-
-export default function TitleWithButtonsBanner({ type }) {
+export default function TitleWithMapBanner({ type }) {
   // eslint-disable-next-line
   const [filteredId, filteredBanner, background, revertPosition, anchor] = type;
+  // const link = filteredBanner.filter((banner) => banner.link);
+  // const handleClick = () => {
+  //   if (link) {
+  //     // Abre o link em uma nova aba
+  //     window.open(link, "_blank");
+  //   }
+  // };
   return (
     <>
       {filteredBanner.map((banner) => (
@@ -48,7 +53,11 @@ export default function TitleWithButtonsBanner({ type }) {
               </h2>
               {banner.paragraph ? (
                 <p
-                  style={banner.background ? { color: "var(--branco)" } : null}
+                  style={
+                    banner.background || background
+                      ? { color: "var(--branco)" }
+                      : null
+                  }
                 >
                   {banner.paragraph}
                 </p>
@@ -64,16 +73,14 @@ export default function TitleWithButtonsBanner({ type }) {
                   {banner.botText}
                 </p>
               ) : undefined}
-              <div className={styles.buttonBox}>
-                {banner.button.map((button) => (
-                  <SimpleButton
-                    children={button.children}
-                    primaryColor={filteredId.primaryColor}
-                    secundaryColor={filteredId.secundaryColor}
-                    terciaryColor={filteredId.terciaryColor}
-                    link={button.link}
-                  />
-                ))}
+              <div
+                className={styles.imageBox}
+                // onClick={handleClick}
+              >
+                <img
+                  src={banner.image}
+                  alt='none'
+                />
               </div>
             </div>
           </div>

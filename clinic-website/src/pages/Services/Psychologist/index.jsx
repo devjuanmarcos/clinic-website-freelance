@@ -6,7 +6,7 @@ import data from "assets/json/data.json";
 import MainBanner from "components/Banners/Main";
 import ThreeMiniBanners from "components/Banners/ThreeMini";
 import ImageWithText from "components/Banners/ImageWithText";
-import TitleWithButtons from "components/Banners/TitleWithButtons";
+import TitleWithButtonsBanner from "components/Banners/TitleWithButtons";
 import Menu from "components/Menu";
 import CardCarouselBanner from "components/Banners/CardCarousel";
 
@@ -51,7 +51,7 @@ export default function Psychologist({ pageId }) {
         type={filteredBanner("children", false, true, "anchorInfo1")}
       />
 
-      <TitleWithButtons
+      <TitleWithButtonsBanner
         type={filteredBanner("farBeyond", false, false, "anchorInfo2")}
       />
 
