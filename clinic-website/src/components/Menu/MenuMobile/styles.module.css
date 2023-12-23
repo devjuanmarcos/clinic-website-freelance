@@ -1,0 +1,9 @@
+.container {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  .container {
+    display: flex !important;
+  }
+}

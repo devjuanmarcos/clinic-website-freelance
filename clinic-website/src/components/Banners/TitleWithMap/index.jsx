@@ -62,6 +62,16 @@ export default function TitleWithMapBanner({ type }) {
                   {banner.paragraph}
                 </p>
               ) : undefined}
+
+              <div
+                className={styles.imageBox}
+                // onClick={handleClick}
+              >
+                <img
+                  src={banner.image}
+                  alt='none'
+                />
+              </div>
               {banner.botText ? (
                 <p
                   style={
@@ -73,15 +83,6 @@ export default function TitleWithMapBanner({ type }) {
                   {banner.botText}
                 </p>
               ) : undefined}
-              <div
-                className={styles.imageBox}
-                // onClick={handleClick}
-              >
-                <img
-                  src={banner.image}
-                  alt='none'
-                />
-              </div>
             </div>
           </div>
         </section>

@@ -1,3 +1,4 @@
+import MenuMobile from "components/Menu/MenuMobile";
 import Error404 from "pages/Error404";
 import Home from "pages/Home";
 import Nutricionist from "pages/Services/Nutritionist";
@@ -21,6 +22,7 @@ export default function AppRoutes() {
     <>
       <BrowserRouter>
         <ScrollToTop />
+        <MenuMobile />
         <Routes>
           <Route
             path='/'

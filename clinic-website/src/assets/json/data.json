@@ -334,7 +334,8 @@
         "id": 9,
         "type": "map",
         "title": "Localização Conveniente",
-        "paragraph": "Localizado na Rua João Caetano, número 186, nosso espaço está situado em um local de fácil acesso.",
+        "paragraph": "Descubra o equilíbrio perfeito entre praticidade e proximidade. Nosso espaço está a apenas 5 minutos do centro e a meros 1 minuto da Universidade Católica de Petrópolis (UCP). Aqui, você encontra conforto e conveniência a passos de tudo o que precisa.",
+        "botText": "Rua João Caetano, número 186 - Petrópolis Rj",
         "image": "/images/map.png",
         "link": "https://www.google.com/maps/place/R.+João+Caetano,+186+-+Caxambu,+Petrópolis+-+RJ,+25610-011/@-22.5073938,-43.1674546,17z/data=!4m6!3m5!1s0x99a8088fbeaead:0xc1d0eea339155618!8m2!3d-22.5069825!4d-43.1642306!16s%2Fg%2F11csjssdpj?entry=ttu"
       }

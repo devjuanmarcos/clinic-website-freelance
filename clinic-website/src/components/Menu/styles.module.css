@@ -30,6 +30,11 @@
   height: 32px;
 }
 
+.link {
+  display: flex;
+  flex-direction: row;
+}
+
 .routes {
   display: flex;
   gap: 30px;

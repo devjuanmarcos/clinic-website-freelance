@@ -46,7 +46,7 @@ export const MenuMain = () => {
         </NavLink>
       </div>
 
-      <nav style={{ flexDirection: "row", display: "flex" }}>
+      <nav className={styles.link}>
         {items.map((item) => (
           <MenuLink
             className={styles.item}
